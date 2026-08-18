@@ -1,0 +1,113 @@
+site_name: The Lookout Beach House — Guest Guide
+site_description: Everything you need to know to enjoy your stay at The Lookout Beach House, Point Lookout, North Stradbroke Island.
+site_url: https://kane-f.github.io/straddie/
+repo_url: https://github.com/kane-f/straddie
+repo_name: kane-f/straddie
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: en
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: false
+      fallback_to_build_date: true
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  generator: false
+
+nav:
+  - Welcome: index.md
+  - Before You Come: before-you-come/index.md
+  - House Guide:
+      - Overview: house/index.md
+      - Kitchen: house/kitchen/index.md
+      - Living Area: house/living/index.md
+      - Dining: house/dining/index.md
+      - Bedrooms: house/bedrooms/index.md
+      - Bathrooms: house/bathrooms/index.md
+      - Outdoor & BBQ: house/outdoor/index.md
+      - Laundry: house/laundry/index.md
+  - Appliances & Tech:
+      - Appliances: appliances/index.md
+      - Technology & Wi-Fi: technology/index.md
+  - Island Guide:
+      - Overview: island/index.md
+      - Beaches & Swimming: island/beaches-and-swimming/index.md
+      - Food & Drink: island/food-and-drink/index.md
+      - Things To Do: island/things-to-do/index.md
+      - Practical Info: island/practical/index.md
+  - Before You Leave: before-you-leave/checkout.md
+  - Need Help?: help/index.md
+  - Photo Gallery: gallery/index.md
