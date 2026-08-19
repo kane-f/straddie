@@ -20,7 +20,7 @@ status: review
 - [ ] Used towels left in the bathrooms
 - [ ] Rubbish and recycling placed in the council bins provided
 - [ ] [BBQ](../appliances/bbq.md) cleaned — a cleaning fee applies if it's left dirty
-- [ ] Bin left at the kerb if you're leaving Monday morning (see [Bins](#bins) below)
+- [ ] Bins put out at the kerb if you're leaving on Sunday (see [Bins](#bins) below)
 
 !!! info "PLACEHOLDER — content pending ingestion"
     Fridges/freezers, linen, lights, air conditioning, doors/windows,
@@ -33,10 +33,10 @@ status: review
     This section is deliberately easy to find — check back here if you're
     not sure what to do with rubbish on your way out.
 
-**Collection day:** Monday morning.
+**Put bins out:** Sunday, ready for Monday morning collection.
 
-**If you're staying Sunday night:** please make sure the waste bin is left
-at the kerb for early Monday collection.
+**If you're leaving on Sunday:** we'd appreciate you putting the bins out
+at the kerb on your way — it's a big help for Monday's collection.
 
 **Prawn shells:** if you love prawns, keep the leftover shells in the
 freezer and place them in the bin just before you leave (or on Sunday

@@ -40,7 +40,7 @@ bathroom supplies in the house ready to use when you arrive.
 
 ## Things to Bring / Don't Need to Bring
 
-_Pending ingestion._
+- Coffee pods, if you use a pod coffee machine
 
 ## Important House Information
 
@@ -61,7 +61,7 @@ garage does have a power point (up high) if you need to charge an EV.
 
 **BBQ gas bottle:** if it runs out, see [BBQ](../appliances/bbq.md).
 
-**Rubbish:** Monday morning is bin collection — see
+**Rubbish:** bins go out on Sunday, collected Monday morning — see
 [Before You Leave → Bins](../before-you-leave/checkout.md#bins).
 
 ## Wi-Fi & Internet

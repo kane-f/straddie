@@ -60,7 +60,7 @@ Carpet pythons (non-venomous) and the occasional eastern brown snake
 encounter a snake, stay calm and back away slowly — don't handle it.
 
 !!! danger "Injured animal?"
-    Call Minjerribah Wildlife Rescue: **0448 466 556**.
+    Call Wildlife Rescue Minjerribah: **0448 466 556**.
 
 !!! tip "Our recommendation"
     Spot dolphins at Amity Point Jetty, especially early morning or late
@@ -107,7 +107,9 @@ Commonwealth Games medal designs. Workshops available.
 **Starfish Studio** and **Linen Caravan** (both Point Lookout) — homewares,
 textiles, and gifts, good for souvenirs.
 
-**Straddie Tees** (Point Lookout) — island-themed apparel.
+**Straddie Tees** (Point Lookout) — island-themed apparel. _Trading name
+unconfirmed as of an August 2026 check — may now trade as "Straddie
+T-Shirts" or under a different shop name; worth confirming next visit._
 
 ## More Things To Do
 

@@ -20,15 +20,15 @@ afternoon drink. We hope you enjoy your stay.
 
 - **Check-in** is any time after 2pm — **check-out** is 10am or earlier.
 - Basic kitchen and bathroom supplies are provided.
-- The four bedrooms are named after nearby beaches: **Flinders, Frenchmans,
-  Cylinder, and Main** — see [Bedrooms](house/bedrooms/index.md).
+- A highchair and a kids' cot are stored in the downstairs bedroom — see
+  [Bedrooms](house/bedrooms/index.md).
 - The Xbox is in the [Downstairs Living Room](house/living-downstairs/index.md).
 - Wi-Fi details are on the fridge in the house.
 - The double carport downstairs is used by another unit — please don't
   park there. Parking is available in the garage under the house or on
   the street.
 - BBQ gas bottle empty? See [BBQ](appliances/bbq.md).
-- Bin day is Monday morning — see [Bins](before-you-leave/checkout.md#bins).
+- Bins go out on Sunday, ready for Monday morning collection — see [Bins](before-you-leave/checkout.md#bins).
 - Property manager **Mel** (Stradbroke Island Coastal Homes) is your first
   point of contact — see [Need Help?](help/index.md).
 
