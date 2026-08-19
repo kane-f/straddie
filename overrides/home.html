@@ -1,0 +1,30 @@
+{% extends "main.html" %}
+
+{% block content %}
+<div class="hero-page">
+  <div class="hero-parallax" data-hero-parallax>
+    <div class="hero-parallax__layer hero-parallax__layer--sky" data-depth="0.10">
+      <img src="{{ 'assets/images/hero/layer-1-sky.svg' | url }}" alt="" loading="eager">
+    </div>
+    <div class="hero-parallax__layer hero-parallax__layer--headland" data-depth="0.25">
+      <img src="{{ 'assets/images/hero/layer-2-headland.svg' | url }}" alt="" loading="eager">
+    </div>
+    <div class="hero-parallax__layer hero-parallax__layer--shore" data-depth="0.45">
+      <img src="{{ 'assets/images/hero/layer-3-shore.svg' | url }}" alt="" loading="eager">
+    </div>
+    <div class="hero-parallax__inner md-grid">
+      <div class="hero-parallax__teaser">
+        <h1>The Lookout Beach House</h1>
+        <p>Your guest guide to Point Lookout, North Stradbroke Island — everything you need, in seconds.</p>
+        <a href="#start-here" class="md-button md-button--primary">Start Here</a>
+        <a href="{{ 'help/' | url }}" class="md-button">Need Help?</a>
+      </div>
+    </div>
+    <div class="hero-parallax__more">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 4h2v12l5.5-5.5 1.42 1.42L12 19.84l-7.92-7.92L5.5 10.5 11 16z"/></svg>
+    </div>
+  </div>
+
+  {{ super() }}
+</div>
+{% endblock %}

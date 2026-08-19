@@ -1,14 +1,13 @@
 ---
 title: Welcome
 description: Guest guide for The Lookout Beach House, Point Lookout, North Stradbroke Island.
+template: home.html
 section: welcome
 tags: [welcome, start-here]
 last_reviewed: 2026-08-19
 source: ingest/welcome-pack-2024.md
 status: review
 ---
-
-# Welcome to The Lookout Beach House
 
 Thanks for staying at The Lookout Beach House, on beautiful North
 Stradbroke Island. We've recently refreshed our house with lots of love to

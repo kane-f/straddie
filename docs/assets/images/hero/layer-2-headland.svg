@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Headland and ocean">
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d5457"/>
+      <stop offset="100%" stop-color="#0a3536"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,900 L0,620 C120,560 220,520 340,470 C460,415 520,330 610,300
+           C700,270 760,340 820,380 C900,430 980,410 1060,440
+           C1180,485 1260,560 1360,600 C1450,635 1520,660 1600,650
+           L1600,900 Z" fill="#0e5c5f"/>
+  <path d="M0,900 L0,700 C140,660 260,650 380,660 C520,672 600,700 700,690
+           C820,678 900,640 1020,650 C1160,662 1280,700 1400,700
+           C1480,700 1540,690 1600,680 L1600,900 Z" fill="url(#water)"/>
+  <g fill="#f4c76b" opacity="0.35">
+    <rect x="1140" y="640" width="6" height="10"/>
+    <rect x="1200" y="660" width="4" height="8"/>
+    <rect x="1080" y="655" width="5" height="9"/>
+  </g>
+</svg>
