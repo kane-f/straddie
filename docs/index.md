@@ -14,18 +14,19 @@ Stradbroke Island. We've recently refreshed our house with lots of love to
 make a holiday house that we want to keep coming back to with our family.
 We love relaxing on the deck admiring the view, the easy walk to the
 beach, heading to the Gelati shop, or wandering to the pub for an
-afternoon drink. We're so happy to share our house with you — we hope you
-have a wonderful stay.
+afternoon drink. We hope you enjoy your stay.
 
 ## Start Here
 
-- **Check-in** is any time after 2pm — **check-out** is strictly 10am or earlier.
+- **Check-in** is any time after 2pm — **check-out** is 10am or earlier.
 - Basic kitchen and bathroom supplies are provided.
 - The four bedrooms are named after nearby beaches: **Flinders, Frenchmans,
   Cylinder, and Main** — see [Bedrooms](house/bedrooms/index.md).
 - The Xbox is in the [Downstairs Living Room](house/living-downstairs/index.md).
-- Wi-Fi details are provided separately, not published on this site.
-- The double carport is reserved for **unit 2** — don't park there.
+- Wi-Fi details are on the fridge in the house.
+- The double carport downstairs is used by another unit — please don't
+  park there. Parking is available in the garage under the house or on
+  the street.
 - BBQ gas bottle empty? See [BBQ](appliances/bbq.md).
 - Bin day is Monday morning — see [Bins](before-you-leave/checkout.md#bins).
 - Property manager **Mel** (Stradbroke Island Coastal Homes) is your first

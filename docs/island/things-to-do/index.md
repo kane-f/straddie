@@ -79,6 +79,13 @@ visibility.
 spots. Target species: tailor, bream, flathead. Best early morning or
 dusk; check tide times.
 
+## 4WD & Beach Driving
+
+A **Vehicle Access Permit** is required for beach driving (online, or at
+Minjerribah Camping in Dunwich) — see
+[Practical Info → Four-Wheel-Drive Tracks](../practical/index.md#four-wheel-drive-tracks)
+for permits, tracks, and tide rules.
+
 ## Arts, Culture & History
 
 **Straddie History Museum** (North Stradbroke Island Historical Museum,
