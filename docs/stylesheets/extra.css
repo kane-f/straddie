@@ -49,9 +49,21 @@
   transform-style: preserve-3d;
 }
 
+/* Sized by viewport WIDTH alone (not inset:0 / vh-based height), matching
+   how mkdocs-material's own homepage does it: each layer's own box is a
+   square, `width: height: 100vw`. That decouples the crop from the page's
+   actual aspect ratio — without this, the same layer frames completely
+   differently on a short wide desktop viewport vs. a tall narrow mobile
+   one, because object-fit: cover's crop depends on the box's own aspect
+   ratio. `max(100vw, 100vh)` keeps that width-driven framing on ordinary
+   screens while still guaranteeing full coverage on very tall/narrow
+   ones, where 100vw alone could be shorter than the viewport. */
 .hero-parallax__layer {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: max(100vw, 100vh);
   transform: translateZ(calc(var(--md-parallax-depth) * -50px))
     scale(calc(1 + var(--md-parallax-depth)));
   transform-origin: top left;
@@ -97,7 +109,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 22%;
+  object-position: center 30%;
 }
 
 .hero-parallax__layer--background {
@@ -105,7 +117,7 @@
 }
 
 .hero-parallax__layer--background img {
-  object-position: center 22%;
+  object-position: center 30%;
 }
 
 .hero-parallax__layer--grass {
@@ -113,7 +125,7 @@
 }
 
 .hero-parallax__layer--grass img {
-  object-position: bottom center;
+  object-position: center 100%;
 }
 
 /* The bird is a single small subject, not a full-bleed backdrop —
@@ -123,10 +135,10 @@
   z-index: 3;
   top: auto;
   left: auto;
-  right: 4%;
-  bottom: 42vh;
+  right: 6%;
+  bottom: 12vh;
   width: auto;
-  height: 20vh;
+  height: 34vh;
 }
 
 .hero-parallax__layer--bird img {
@@ -261,9 +273,9 @@
   /* The teaser text runs full-width on narrow screens, so shrink the bird
      and tuck it low in the corner rather than let it sit behind the copy. */
   .hero-parallax__layer--bird {
-    right: 2%;
-    bottom: 30vh;
-    height: 9vh;
+    right: 3%;
+    bottom: 26vh;
+    height: 16vh;
   }
 
   .hero-parallax__scrim {
