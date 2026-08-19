@@ -38,21 +38,54 @@
   object-fit: cover;
 }
 
-.hero-parallax__layer--sky {
+.hero-parallax__layer--background {
   z-index: 1;
 }
 
-.hero-parallax__layer--headland {
+.hero-parallax__layer--background img {
+  object-position: center 22%;
+}
+
+.hero-parallax__layer--grass {
   z-index: 2;
 }
 
-.hero-parallax__layer--shore {
+.hero-parallax__layer--grass img {
+  object-position: bottom center;
+}
+
+/* The bird is a single small subject, not a full-bleed backdrop —
+   size and position it as its own element rather than covering the layer. */
+.hero-parallax__layer--bird {
+  top: auto;
+  left: auto;
+  right: 4%;
+  bottom: 0;
+  width: auto;
+  height: 44%;
   z-index: 3;
+}
+
+.hero-parallax__layer--bird img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom right;
+}
+
+.hero-parallax__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  background:
+    linear-gradient(0deg, rgba(6, 26, 27, 0.55) 0%, rgba(6, 26, 27, 0) 55%),
+    linear-gradient(90deg, rgba(6, 26, 27, 0.45) 0%, rgba(6, 26, 27, 0) 60%);
+  pointer-events: none;
 }
 
 .hero-parallax__inner {
   position: relative;
-  z-index: 4;
+  z-index: 5;
   width: 100%;
   padding-bottom: 4rem;
 }
@@ -101,7 +134,7 @@
   position: absolute;
   bottom: 1.25rem;
   left: 50%;
-  z-index: 4;
+  z-index: 5;
   width: 1.6rem;
   height: 1.6rem;
   color: #fff;
@@ -133,10 +166,22 @@
 
 @media (max-width: 44.9375em) {
   .hero-parallax {
-    min-height: 60vh;
+    min-height: 82vh;
   }
 
   .hero-parallax__teaser h1 {
     font-size: 1.8rem;
+  }
+
+  /* The teaser text runs full-width on narrow screens, so shrink the bird
+     and tuck it low in the corner rather than let it sit behind the copy. */
+  .hero-parallax__layer--bird {
+    right: 2%;
+    height: 16%;
+  }
+
+  .hero-parallax__scrim {
+    background:
+      linear-gradient(0deg, rgba(6, 26, 27, 0.7) 0%, rgba(6, 26, 27, 0.15) 65%, rgba(6, 26, 27, 0) 100%);
   }
 }
