@@ -1,0 +1,28 @@
+# Raw source documents dropped for ingestion.
+# These are working files (may contain personal info) and are never committed;
+# only the resulting Markdown pages under docs/ are checked in.
+/ingest/
+
+# MkDocs build output
+/site/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS cruft
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+secrets.*
