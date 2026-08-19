@@ -28,6 +28,7 @@ The house's own picks, straight from the welcome pack:
 | The Little Ship Club | 1 Yabby St, Dunwich | |
 | Fins N Fries (takeaway) | Meegeera Place, Point Lookout | |
 | Whale Tail Gelati | 19 Mooloomba Rd, Point Lookout | Best gelato on the island |
+| Six Beaches Fish Grill & Bar | Point Lookout | One of our favourite places |
 
 ## Restaurants & Cafes
 
@@ -45,9 +46,18 @@ The house's own picks, straight from the welcome pack:
 | Little Ship Club | 1 Yabby St, Dunwich — waterfront, seafood, steaks, sunset views. |
 
 !!! question "Needs confirmation"
-    Two of the sources give different street numbers for Foodworks Point
-    Lookout ("Bob's Shop") — 1 Endeavour Street vs. 2 Endeavour Street.
-    Worth confirming before publishing.
+    - Two of the sources give different street numbers for Foodworks Point
+      Lookout ("Bob's Shop") — 1 Endeavour Street vs. 2 Endeavour Street.
+    - The Stradbroke Island Hotel's bistro may now trade as "Manta Ray
+      Bistro" rather than "Mantra Bay Bistro" — worth double-checking next
+      time you're there.
+    - Perry's Fish & Chips: some current listings put it at 7 Stradbroke
+      Place, Dunwich, rather than 16 Bingle Road — worth confirming.
+    - Point Lookout Green Room's address may have changed from 27
+      Mooloomba Rd — worth confirming.
+    All businesses on this page were still confirmed trading as of an
+    August 2026 check; these are just name/address details worth a
+    once-over before the next review.
 
 ## Coffee Shops
 
@@ -68,5 +78,10 @@ The house's own picks, straight from the welcome pack:
 | Foodworks Dunwich | 5 Stradbroke Place, Dunwich | Also has an ATM, near the ferry terminal |
 | Dunwich Cellarbrations / Point Lookout Bottle Shop | Under the respective pubs | Beer, wine, spirits |
 | Woolworths | — | Delivers daily to Straddie — book ahead |
+| The Prawn Shack | 1 Mintee Street, Point Lookout | Fresh local seafood — prawns, bugs, crabs, oysters, fish. Our favourite for seafood — a few other spots sell it too, but this is the one we go back to. |
 
 For the BBQ gas bottle swap specifically, see [BBQ](../../appliances/bbq.md).
+
+There's also a bookshop right by The Prawn Shack — **Point Lookout News
+Agent**, 1 Mintee Street, Point Lookout — with newspapers, magazines,
+books, and stationery. Worth a browse for a holiday read.
