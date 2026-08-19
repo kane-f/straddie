@@ -3,39 +3,38 @@ title: Need Help?
 description: Who to contact for house problems, urgent issues, and emergencies.
 section: help
 tags: [help, contact, emergency]
-last_reviewed: TBD
-source: pending ingestion
-status: draft
+last_reviewed: 2026-08-19
+source: ingest/welcome-pack-2024.md
+status: review
 ---
 
 # Need Help?
-
-!!! info "PLACEHOLDER — content pending ingestion"
-    Contact details will be filled in from the existing guides once
-    ingested. No contact details are invented here.
 
 ## Emergencies
 
 !!! danger "Fire, Ambulance, Police"
     Call **000** (or **112** if you don't have mobile coverage).
 
-## Property Manager / Owner
+## Property Manager
 
-_Pending ingestion._
+**Stradbroke Island Coastal Homes**
+📞 0418 859 564
+
+Mel is a local and your first point of contact for any questions or issues
+with the property.
 
 ## Normal House Problems
 
-If something in the house isn't working, start here:
-
-_Pending ingestion._
-
-## Urgent Problems
-
-_Pending ingestion._
+For anything that isn't an emergency, contact the property manager above.
 
 ## Local Emergency & Medical Contacts
 
-_Pending ingestion — e.g. nearest medical centre, police station, marine rescue._
+| Service | Details |
+| --- | --- |
+| Medical (24hr emergency) | Marie Rose Medical Centre, Dunwich — 07 3409 9059 |
+| GP doctor service | Stradbroke Island Medical Centre, Point Lookout — 07 3409 8660 |
+| Police | Dunwich Police Station — 07 3409 6020 |
+| Marine rescue | NSI Marine Rescue — 07 3409 9338 |
 
 ## Utilities
 
@@ -43,4 +42,4 @@ _Pending ingestion._
 
 ## If Something Breaks
 
-_Pending ingestion._
+Contact the property manager (Mel, above) in the first instance.

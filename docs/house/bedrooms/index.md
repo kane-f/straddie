@@ -1,52 +1,27 @@
 ---
 title: Bedrooms
-description: Bedroom layout, linen, and anything guests should know.
+description: The four bedrooms, each named after a Point Lookout beach.
 section: house
 tags: [bedrooms]
-last_reviewed: TBD
-source: pending ingestion
-status: draft
+last_reviewed: 2026-08-19
+source: ingest/welcome-pack-2024.md
+status: review
 ---
 
 # Bedrooms
 
-!!! info "PLACEHOLDER — content pending ingestion"
-    This page follows the standard `templates/room-page-template.md`.
-    Real content will be added from the existing guides — including how many
-    bedrooms there are and their configuration.
+The four bedrooms are each named after a beach on North Stradbroke Island —
+a nice bit of trivia if you're deciding which room to book, and a good
+excuse to go visit the real beach during your stay.
 
-## Overview
+<div class="grid cards" markdown>
 
-_Pending ingestion._
+-   **[Flinders](flinders/index.md)**
+-   **[Frenchmans](frenchmans/index.md)**
+-   **[Cylinder](cylinder/index.md)**
+-   **[Main](main/index.md)**
 
-## Quick Start
+</div>
 
-_Pending ingestion._
-
-## How To Use Things
-
-_Pending ingestion — e.g. wardrobes, blackout blinds, extra linen/pillows._
-
-## Technology
-
-_Pending ingestion — e.g. smart lights, air conditioning, alarm clocks._
-
-## Voice Commands
-
-_Pending ingestion — only confirmed commands will be listed._
-
-## Tips & Tricks
-
-_Pending ingestion._
-
-## Things Guests Often Miss
-
-_Pending ingestion._
-
-## Troubleshooting
-
-_Pending ingestion._
-
-## Photos
-
-_Pending ingestion._
+!!! warning "House rule"
+    No eating in bedrooms or on sofas.

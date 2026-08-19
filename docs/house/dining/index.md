@@ -1,30 +1,24 @@
 ---
-title: Dining
-description: The dining area — seating, and anything guests should know.
+title: Dining Room
+description: Board games, books, and dining area house rules.
 section: house
 tags: [dining]
-last_reviewed: TBD
-source: pending ingestion
-status: draft
+last_reviewed: 2026-08-19
+source: ingest/welcome-pack-2024.md
+status: review
 ---
 
-# Dining
-
-!!! info "PLACEHOLDER — content pending ingestion"
-    This page follows the standard `templates/room-page-template.md`.
-    Real content will be added from the existing guides.
+# Dining Room
 
 ## Overview
 
-_Pending ingestion._
+The dining area has board games, cards, and books for guests to enjoy.
 
 ## Quick Start
 
-_Pending ingestion._
-
-## How To Use Things
-
-_Pending ingestion._
+- Board games & cards are in the sideboard of the dining area.
+- There are books throughout the house — feel free to read them, but please
+  leave them behind for other guests when you head home.
 
 ## Tips & Tricks
 
@@ -32,11 +26,14 @@ _Pending ingestion._
 
 ## Things Guests Often Miss
 
-_Pending ingestion._
+The sideboard in the dining area holds the board games and cards — easy to
+miss if you don't open it.
 
-## Troubleshooting
+## House Rules
 
-_Pending ingestion._
+!!! warning "Worth knowing"
+    No eating in bedrooms or on sofas — please keep food and drink to the
+    dining and living areas.
 
 ## Photos
 

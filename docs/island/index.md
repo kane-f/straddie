@@ -3,18 +3,12 @@ title: Island Guide
 description: Beaches, food, things to do, and practical info for North Stradbroke Island.
 section: island
 tags: [island]
-last_reviewed: TBD
-source: pending ingestion
-status: draft
+last_reviewed: 2026-08-19
+source: ingest/straddie-guide.md
+status: review
 ---
 
 # Island Guide
-
-!!! info "PLACEHOLDER — content pending ingestion"
-    This section will be built from the existing island guide once it's
-    ingested. Content will clearly distinguish "things to know", "things to
-    do", and "our recommendations" rather than reading as a generic
-    tourism write-up.
 
 <div class="grid cards" markdown>
 

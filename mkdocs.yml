@@ -93,14 +93,20 @@ nav:
   - House Guide:
       - Overview: house/index.md
       - Kitchen: house/kitchen/index.md
-      - Living Area: house/living/index.md
-      - Dining: house/dining/index.md
-      - Bedrooms: house/bedrooms/index.md
-      - Bathrooms: house/bathrooms/index.md
-      - Outdoor & BBQ: house/outdoor/index.md
-      - Laundry: house/laundry/index.md
+      - Dining Room: house/dining/index.md
+      - Upstairs Living Room: house/living-upstairs/index.md
+      - Downstairs Living Room: house/living-downstairs/index.md
+      - Balcony: house/balcony/index.md
+      - Bedrooms:
+          - Overview: house/bedrooms/index.md
+          - Flinders: house/bedrooms/flinders/index.md
+          - Frenchmans: house/bedrooms/frenchmans/index.md
+          - Cylinder: house/bedrooms/cylinder/index.md
+          - Main: house/bedrooms/main/index.md
   - Appliances & Tech:
-      - Appliances: appliances/index.md
+      - Appliances:
+          - Overview: appliances/index.md
+          - BBQ: appliances/bbq.md
       - Technology & Wi-Fi: technology/index.md
   - Island Guide:
       - Overview: island/index.md

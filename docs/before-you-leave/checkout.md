@@ -3,31 +3,29 @@ title: Before You Leave
 description: The checkout checklist — cleaning, bins, and what to do before you go.
 section: before-you-leave
 tags: [checkout, bins, before-you-leave]
-last_reviewed: TBD
-source: pending ingestion
-status: draft
+last_reviewed: 2026-08-19
+source: ingest/welcome-pack-2024.md
+status: review
 ---
 
 # Before You Leave
 
-!!! info "PLACEHOLDER — content pending ingestion"
-    This checklist will be built from the existing house rules once ingested.
-    It's designed to work as a checklist on a phone at checkout time.
+!!! danger "Checkout is strictly 10am or earlier"
+    Please leave the house as you generally found it.
 
 ## Checkout Checklist
 
-- [ ] General cleaning
-- [ ] Dishes / dishwasher
-- [ ] Fridges / freezers
-- [ ] Rubbish taken out (see [Bins](#bins) below)
-- [ ] Linen and towels
-- [ ] Outdoor areas tidy
-- [ ] BBQ cleaned
-- [ ] Lights off
-- [ ] Air conditioning off
-- [ ] Doors and windows locked
-- [ ] Keys returned
-- [ ] Security set
+- [ ] All belongings and any food removed (opened or unopened)
+- [ ] Dishes washed
+- [ ] Used towels left in the bathrooms
+- [ ] Rubbish and recycling placed in the council bins provided
+- [ ] [BBQ](../appliances/bbq.md) cleaned — a cleaning fee applies if it's left dirty
+- [ ] Bin left at the kerb if you're leaving Monday morning (see [Bins](#bins) below)
+
+!!! info "PLACEHOLDER — content pending ingestion"
+    Fridges/freezers, linen, lights, air conditioning, doors/windows,
+    keys, and security haven't been confirmed in the source guide yet —
+    add them here once confirmed rather than assuming a generic checklist.
 
 ## Bins
 
@@ -35,10 +33,15 @@ status: draft
     This section is deliberately easy to find — check back here if you're
     not sure what to do with rubbish on your way out.
 
-**Which bins:** _Pending ingestion._
+**Collection day:** Monday morning.
 
-**Collection day:** _Pending ingestion._
+**If you're staying Sunday night:** please make sure the waste bin is left
+at the kerb for early Monday collection.
 
-**Where to place them:** _Pending ingestion._
+**Prawn shells:** if you love prawns, keep the leftover shells in the
+freezer and place them in the bin just before you leave (or on Sunday
+night, before collection) — trust us on this one.
+
+**Where to place rubbish/recycling:** put it in the council bins provided.
 
 **Island-specific recycling rules:** _Pending ingestion._
