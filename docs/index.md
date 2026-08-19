@@ -3,25 +3,34 @@ title: Welcome
 description: Guest guide for The Lookout Beach House, Point Lookout, North Stradbroke Island.
 section: welcome
 tags: [welcome, start-here]
-last_reviewed: TBD
-source: pending ingestion
-status: draft
+last_reviewed: 2026-08-19
+source: ingest/welcome-pack-2024.md
+status: review
 ---
 
 # Welcome to The Lookout Beach House
 
-!!! info "PLACEHOLDER — content pending ingestion"
-    This is the site foundation. The welcome message, house introduction, and
-    "Start Here" essentials below will be filled in once the existing guides
-    are ingested from `ingest/`. Nothing here has been invented.
-
-A short, friendly welcome message and introduction to the house goes here.
+Thanks for staying at The Lookout Beach House, on beautiful North
+Stradbroke Island. We've recently refreshed our house with lots of love to
+make a holiday house that we want to keep coming back to with our family.
+We love relaxing on the deck admiring the view, the easy walk to the
+beach, heading to the Gelati shop, or wandering to the pub for an
+afternoon drink. We're so happy to share our house with you — we hope you
+have a wonderful stay.
 
 ## Start Here
 
-The 5–10 things most useful to know right now, at a glance:
-
-- _Pending ingestion_
+- **Check-in** is any time after 2pm — **check-out** is strictly 10am or earlier.
+- Basic kitchen and bathroom supplies are provided.
+- The four bedrooms are named after nearby beaches: **Flinders, Frenchmans,
+  Cylinder, and Main** — see [Bedrooms](house/bedrooms/index.md).
+- The Xbox is in the [Downstairs Living Room](house/living-downstairs/index.md).
+- Wi-Fi details are provided separately, not published on this site.
+- The double carport is reserved for **unit 2** — don't park there.
+- BBQ gas bottle empty? See [BBQ](appliances/bbq.md).
+- Bin day is Monday morning — see [Bins](before-you-leave/checkout.md#bins).
+- Property manager **Mel** (Stradbroke Island Coastal Homes) is your first
+  point of contact — see [Need Help?](help/index.md).
 
 ## Where to next?
 
