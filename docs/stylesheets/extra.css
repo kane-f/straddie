@@ -1,4 +1,14 @@
-/* Parallax hero — homepage only (see overrides/home.html) */
+/* Parallax hero — homepage only (see overrides/home.html)
+
+   This mirrors how mkdocs-material's own homepage does it: a dedicated
+   internally-scrolling container with `perspective` set, and each image
+   layer pushed back in 3D space with `translateZ` + a compensating
+   `scale`. The parallax motion comes entirely from native scrolling
+   inside that container — there's no JS recalculating transforms on
+   scroll, which is what makes it smooth (no per-frame layout/JS jank).
+   Formula (perspective P = 50px): translateZ(depth * -50px), scale(1 + depth).
+   A larger --md-parallax-depth = pushed further back = appears to move
+   slower relative to the near (small-depth) layers. */
 
 .hero-page .md-content__inner {
   margin: 0;
@@ -13,21 +23,38 @@
   position: relative;
   left: 50%;
   width: 100vw;
-  margin: 0 0 1.5rem -50vw;
-  display: flex;
-  align-items: flex-end;
-  min-height: 70vh;
-  overflow: hidden;
+  /* Pull up behind the sticky header + tabs bar (~146px combined here)
+     so the hero fills the whole first screen, not just the space below
+     the header — matches how mkdocs-material's own homepage does it. */
+  margin: -146px 0 1.5rem -50vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 50px;
+  perspective-origin: 0 0;
   color: #fff;
   background: #0b3d3f;
+  scrollbar-width: none;
+}
+
+.hero-parallax::-webkit-scrollbar {
+  display: none;
+}
+
+/* Taller than the visible box so there's real internal scroll room for
+   the parallax to play out before scroll chains to the page below. */
+.hero-parallax__scene {
+  position: relative;
+  height: 122vh;
+  transform-style: preserve-3d;
 }
 
 .hero-parallax__layer {
   position: absolute;
-  top: -15%;
-  left: 0;
-  right: 0;
-  height: 130%;
+  inset: 0;
+  transform: translateZ(calc(var(--md-parallax-depth) * -50px))
+    scale(calc(1 + var(--md-parallax-depth)));
+  transform-origin: top left;
   will-change: transform;
 }
 
@@ -36,6 +63,41 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Safety net: a plain, non-transformed copy of the background image, sized
+   well beyond the true scrollable range (a `scale()` on the layers above
+   inflates how far this container can actually be scrolled — much further
+   than their own visible coverage reaches, since perspective compensates
+   the on-screen size but not the underlying box geometry). Scrolling to
+   that extreme is a rare edge case, but if it happens, this shows through
+   in place of the container's flat background colour. Deliberately NOT
+   applied to the background/grass layers themselves — giving them a
+   taller box to fix this the same way changes what part of the source
+   image `object-fit: cover` shows at rest, which looked visibly wrong. */
+/* position: sticky, and deliberately NOT a child of .hero-parallax__scene:
+   within a preserve-3d context, actual 3D depth (translateZ) — not
+   z-index — decides paint order for transformed siblings, so a plain,
+   non-transformed "safety net" layer placed among the depth-pushed ones
+   would paint in FRONT of all of them (it has no depth pushing it back).
+   Keeping it outside that 3D context and pinning it to the top of the
+   scroll container sidesteps that entirely: it just always fills the
+   current viewport, underneath everything else, ready to show through
+   in the rare case a scaled layer's coverage runs out. */
+.hero-parallax__backdrop {
+  position: sticky;
+  top: 0;
+  z-index: 0;
+  height: 100vh;
+  margin-bottom: -100vh;
+}
+
+.hero-parallax__backdrop img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 22%;
 }
 
 .hero-parallax__layer--background {
@@ -55,15 +117,16 @@
 }
 
 /* The bird is a single small subject, not a full-bleed backdrop —
-   size and position it as its own element rather than covering the layer. */
+   size and position it as its own element, near the front (very low
+   depth, so it isn't scaled up much) rather than covering the layer. */
 .hero-parallax__layer--bird {
+  z-index: 3;
   top: auto;
   left: auto;
   right: 4%;
-  bottom: 0;
+  bottom: 42vh;
   width: auto;
-  height: 44%;
-  z-index: 3;
+  height: 20vh;
 }
 
 .hero-parallax__layer--bird img {
@@ -73,10 +136,19 @@
   object-position: bottom right;
 }
 
+/* Normal-flow child of the scene, so it naturally sits exactly in the
+   first viewport-height of it — this is what the visitor sees at rest. */
+.hero-parallax__viewport {
+  position: relative;
+  z-index: 4;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+
 .hero-parallax__scrim {
   position: absolute;
   inset: 0;
-  z-index: 4;
   background:
     linear-gradient(0deg, rgba(6, 26, 27, 0.55) 0%, rgba(6, 26, 27, 0) 55%),
     linear-gradient(90deg, rgba(6, 26, 27, 0.45) 0%, rgba(6, 26, 27, 0) 60%);
@@ -85,7 +157,6 @@
 
 .hero-parallax__inner {
   position: relative;
-  z-index: 5;
   width: 100%;
   padding-bottom: 4rem;
 }
@@ -134,13 +205,13 @@
   position: absolute;
   bottom: 1.25rem;
   left: 50%;
-  z-index: 5;
   width: 1.6rem;
   height: 1.6rem;
   color: #fff;
   opacity: 0.8;
   transform: translateX(-50%);
-  animation: hero-bounce 2s ease-in-out infinite;
+  animation: hero-bounce 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none;
 }
 
 .hero-parallax__more svg {
@@ -155,8 +226,26 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .hero-parallax {
+    height: auto;
+    overflow: hidden;
+    perspective: none;
+  }
+
+  .hero-parallax__scene {
+    height: auto;
+    transform-style: flat;
+  }
+
   .hero-parallax__layer {
+    position: absolute;
+    inset: 0;
     transform: none !important;
+  }
+
+  .hero-parallax__layer--bird {
+    top: auto;
+    inset: auto;
   }
 
   .hero-parallax__more {
@@ -165,10 +254,6 @@
 }
 
 @media (max-width: 44.9375em) {
-  .hero-parallax {
-    min-height: 82vh;
-  }
-
   .hero-parallax__teaser h1 {
     font-size: 1.8rem;
   }
@@ -177,7 +262,8 @@
      and tuck it low in the corner rather than let it sit behind the copy. */
   .hero-parallax__layer--bird {
     right: 2%;
-    height: 16%;
+    bottom: 30vh;
+    height: 9vh;
   }
 
   .hero-parallax__scrim {
