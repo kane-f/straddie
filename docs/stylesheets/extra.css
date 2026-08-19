@@ -131,6 +131,17 @@
 /* The bird is a single small subject, not a full-bleed backdrop —
    size and position it as its own element, near the front (very low
    depth, so it isn't scaled up much) rather than covering the layer. */
+/* Unlike the other layers, the bird is deliberately taken OUT of the 3D
+   transform entirely (not just given a very low depth). Perspective
+   projection isn't uniform across the frame — it's centred on
+   perspective-origin (the scene's top-left) — so a small element sitting
+   far from that point, like the bird in the bottom-right corner, visibly
+   changes apparent size as it scrolls through different positions in the
+   frame. A depth near zero only shrinks that wobble, it doesn't remove
+   it. Dropping the transform altogether gives a perfectly stable size,
+   while it still reads as "frontmost": within a preserve-3d context,
+   actual depth (not z-index) decides paint order, and an element with no
+   Z push at all is closer to the camera than any depth-pushed sibling. */
 .hero-parallax__layer--bird {
   z-index: 3;
   top: auto;
@@ -139,6 +150,7 @@
   bottom: 12vh;
   width: auto;
   height: 34vh;
+  transform: none;
 }
 
 .hero-parallax__layer--bird img {
