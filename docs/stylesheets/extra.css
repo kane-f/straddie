@@ -1,14 +1,9 @@
-/* Parallax hero — homepage only (see overrides/home.html)
+/* Simple hero — homepage only (see overrides/home.html)
 
-   This mirrors how mkdocs-material's own homepage does it: a dedicated
-   internally-scrolling container with `perspective` set, and each image
-   layer pushed back in 3D space with `translateZ` + a compensating
-   `scale`. The parallax motion comes entirely from native scrolling
-   inside that container — there's no JS recalculating transforms on
-   scroll, which is what makes it smooth (no per-frame layout/JS jank).
-   Formula (perspective P = 50px): translateZ(depth * -50px), scale(1 + depth).
-   A larger --md-parallax-depth = pushed further back = appears to move
-   slower relative to the near (small-depth) layers. */
+   Deliberately plain: one full-viewport-height section, one background
+   image (object-fit: cover), a scrim for text legibility, and a
+   scroll-down link. No parallax, no JS. Starting point to build back up
+   from once this is solid. */
 
 .hero-page .md-content__inner {
   margin: 0;
@@ -19,158 +14,34 @@
   display: none;
 }
 
-.hero-parallax {
+.hero {
   position: relative;
   left: 50%;
   width: 100vw;
   /* Pull up behind the sticky header + tabs bar (~146px combined here)
      so the hero fills the whole first screen, not just the space below
-     the header — matches how mkdocs-material's own homepage does it. */
+     the header. */
   margin: -146px 0 1.5rem -50vw;
   height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 50px;
-  perspective-origin: 0 0;
+  overflow: hidden;
   color: #fff;
   background: #0b3d3f;
-  scrollbar-width: none;
 }
 
-.hero-parallax::-webkit-scrollbar {
-  display: none;
-}
-
-/* Taller than the visible box so there's real internal scroll room for
-   the parallax to play out before scroll chains to the page below. */
-.hero-parallax__scene {
-  position: relative;
-  height: 122vh;
-  transform-style: preserve-3d;
-}
-
-/* Sized by viewport WIDTH alone (not inset:0 / vh-based height), matching
-   how mkdocs-material's own homepage does it: each layer's own box is a
-   square, `width: height: 100vw`. That decouples the crop from the page's
-   actual aspect ratio — without this, the same layer frames completely
-   differently on a short wide desktop viewport vs. a tall narrow mobile
-   one, because object-fit: cover's crop depends on the box's own aspect
-   ratio. `max(100vw, 100vh)` keeps that width-driven framing on ordinary
-   screens while still guaranteeing full coverage on very tall/narrow
-   ones, where 100vw alone could be shorter than the viewport. */
-.hero-parallax__layer {
+/* Specificity note: mkdocs-material's `.md-typeset img { height: auto;
+   max-width: 100% }` outranks a plain `.hero__image` (class+type beats a
+   single class), so this needs the extra `.hero` ancestor to win. */
+.hero .hero__image {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: max(100vw, 100vh);
-  transform: translateZ(calc(var(--md-parallax-depth) * -50px))
-    scale(calc(1 + var(--md-parallax-depth)));
-  transform-origin: top left;
-  will-change: transform;
-}
-
-.hero-parallax__layer img {
-  display: block;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-}
-
-/* Safety net: a plain, non-transformed copy of the background image, sized
-   well beyond the true scrollable range (a `scale()` on the layers above
-   inflates how far this container can actually be scrolled — much further
-   than their own visible coverage reaches, since perspective compensates
-   the on-screen size but not the underlying box geometry). Scrolling to
-   that extreme is a rare edge case, but if it happens, this shows through
-   in place of the container's flat background colour. Deliberately NOT
-   applied to the background/grass layers themselves — giving them a
-   taller box to fix this the same way changes what part of the source
-   image `object-fit: cover` shows at rest, which looked visibly wrong. */
-/* position: sticky, and deliberately NOT a child of .hero-parallax__scene:
-   within a preserve-3d context, actual 3D depth (translateZ) — not
-   z-index — decides paint order for transformed siblings, so a plain,
-   non-transformed "safety net" layer placed among the depth-pushed ones
-   would paint in FRONT of all of them (it has no depth pushing it back).
-   Keeping it outside that 3D context and pinning it to the top of the
-   scroll container sidesteps that entirely: it just always fills the
-   current viewport, underneath everything else, ready to show through
-   in the rare case a scaled layer's coverage runs out. */
-.hero-parallax__backdrop {
-  position: sticky;
-  top: 0;
-  z-index: 0;
-  height: 100vh;
-  margin-bottom: -100vh;
-}
-
-.hero-parallax__backdrop img {
-  display: block;
-  width: 100%;
-  height: 100%;
+  max-width: none;
   object-fit: cover;
   object-position: center 30%;
 }
 
-.hero-parallax__layer--background {
-  z-index: 1;
-}
-
-.hero-parallax__layer--background img {
-  object-position: center 30%;
-}
-
-.hero-parallax__layer--grass {
-  z-index: 2;
-}
-
-.hero-parallax__layer--grass img {
-  object-position: center 100%;
-}
-
-/* The bird is a single small subject, not a full-bleed backdrop —
-   size and position it as its own element, near the front (very low
-   depth, so it isn't scaled up much) rather than covering the layer. */
-/* Unlike the other layers, the bird is deliberately taken OUT of the 3D
-   transform entirely (not just given a very low depth). Perspective
-   projection isn't uniform across the frame — it's centred on
-   perspective-origin (the scene's top-left) — so a small element sitting
-   far from that point, like the bird in the bottom-right corner, visibly
-   changes apparent size as it scrolls through different positions in the
-   frame. A depth near zero only shrinks that wobble, it doesn't remove
-   it. Dropping the transform altogether gives a perfectly stable size,
-   while it still reads as "frontmost": within a preserve-3d context,
-   actual depth (not z-index) decides paint order, and an element with no
-   Z push at all is closer to the camera than any depth-pushed sibling. */
-.hero-parallax__layer--bird {
-  z-index: 3;
-  top: auto;
-  left: auto;
-  right: 6%;
-  bottom: 12vh;
-  width: auto;
-  height: 34vh;
-  transform: none;
-}
-
-.hero-parallax__layer--bird img {
-  width: auto;
-  height: 100%;
-  object-fit: contain;
-  object-position: bottom right;
-}
-
-/* Normal-flow child of the scene, so it naturally sits exactly in the
-   first viewport-height of it — this is what the visitor sees at rest. */
-.hero-parallax__viewport {
-  position: relative;
-  z-index: 4;
-  height: 100vh;
-  display: flex;
-  align-items: flex-end;
-}
-
-.hero-parallax__scrim {
+.hero__scrim {
   position: absolute;
   inset: 0;
   background:
@@ -179,18 +50,21 @@
   pointer-events: none;
 }
 
-.hero-parallax__inner {
+.hero__inner {
   position: relative;
-  width: 100%;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
   padding-bottom: 4rem;
 }
 
-.hero-parallax__teaser {
+.hero__teaser {
   max-width: 28rem;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
 }
 
-.hero-parallax__teaser h1 {
+.hero__teaser h1 {
   margin: 0 0 0.5rem;
   color: #fff;
   font-size: 2.4rem;
@@ -198,49 +72,56 @@
   line-height: 1.15;
 }
 
-.hero-parallax__teaser p {
+.hero__teaser p {
   margin: 0 0 1.25rem;
   font-size: 1.05rem;
   opacity: 0.92;
 }
 
-.hero-parallax__teaser .md-button {
+.hero__teaser .md-button {
   margin: 0 0.5rem 0.5rem 0;
   border-color: #fff;
   color: #fff;
 }
 
-.hero-parallax__teaser .md-button--primary {
+.hero__teaser .md-button--primary {
   background-color: #f4c76b;
   border-color: #f4c76b;
   color: #0b3d3f;
 }
 
-.hero-parallax__teaser .md-button--primary:hover {
+.hero__teaser .md-button--primary:hover {
   background-color: #eab649;
   border-color: #eab649;
 }
 
-.hero-parallax__teaser .md-button:not(.md-button--primary):hover {
+.hero__teaser .md-button:not(.md-button--primary):hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
-.hero-parallax__more {
+.hero__more {
   position: absolute;
+  z-index: 1;
   bottom: 1.25rem;
   left: 50%;
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   opacity: 0.8;
   transform: translateX(-50%);
   animation: hero-bounce 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-  pointer-events: none;
 }
 
-.hero-parallax__more svg {
-  width: 100%;
-  height: 100%;
+.hero__more:hover {
+  opacity: 1;
+}
+
+.hero__more svg {
+  width: 1.6rem;
+  height: 1.6rem;
   fill: currentcolor;
 }
 
@@ -250,48 +131,13 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-parallax {
-    height: auto;
-    overflow: hidden;
-    perspective: none;
-  }
-
-  .hero-parallax__scene {
-    height: auto;
-    transform-style: flat;
-  }
-
-  .hero-parallax__layer {
-    position: absolute;
-    inset: 0;
-    transform: none !important;
-  }
-
-  .hero-parallax__layer--bird {
-    top: auto;
-    inset: auto;
-  }
-
-  .hero-parallax__more {
+  .hero__more {
     animation: none;
   }
 }
 
 @media (max-width: 44.9375em) {
-  .hero-parallax__teaser h1 {
+  .hero__teaser h1 {
     font-size: 1.8rem;
-  }
-
-  /* The teaser text runs full-width on narrow screens, so shrink the bird
-     and tuck it low in the corner rather than let it sit behind the copy. */
-  .hero-parallax__layer--bird {
-    right: 3%;
-    bottom: 26vh;
-    height: 16vh;
-  }
-
-  .hero-parallax__scrim {
-    background:
-      linear-gradient(0deg, rgba(6, 26, 27, 0.7) 0%, rgba(6, 26, 27, 0.15) 65%, rgba(6, 26, 27, 0) 100%);
   }
 }
