@@ -10,7 +10,7 @@ status: review
 
 # Before You Leave
 
-!!! danger "Checkout is strictly 10am or earlier"
+!!! danger "Checkout is 10am or earlier"
     Please leave the house as you generally found it.
 
 ## Checkout Checklist

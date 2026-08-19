@@ -37,7 +37,7 @@ status: review
 
 | Option | Details |
 | --- | --- |
-| Car | Most flexible. Point Lookout is 22km from Dunwich (ferry arrival point). Sealed roads connect all townships; a 4WD is only needed for beach driving. Fuel at Point Lookout Roadhouse (unleaded/diesel — no LPG on the island). |
+| Car | Most flexible. Point Lookout is 22km from Dunwich (ferry arrival point). Sealed roads connect all townships; a 4WD is only needed for beach driving. Fuel at Point Lookout Roadhouse (unleaded/diesel). There's no EV charger on the island. |
 | Bus | Stradbroke Island Buses connect Dunwich, Amity Point, and Point Lookout (all-day hop-on-hop-off). Meets most ferries — check timetables for early/late services. Credit card or cash only, no go cards. Dogs are no longer allowed on the buses. |
 | Stradeasy Shuttle/Taxi | Private ferry-to-door transfers and group charters. Book by phone/text — 0408 193 685 for maxi-taxi. |
 | Cycling | Dunwich to Point Lookout is 22km on sealed roads (mind narrow shoulders and trucks). Bike rentals at Manta Lodge or Straddie Super Sports. |

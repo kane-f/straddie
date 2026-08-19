@@ -14,7 +14,7 @@ status: review
 
 - Shops on the island are limited compared to the mainland — plan ahead.
 - Woolworths delivers daily to Straddie; book your delivery in advance.
-- There's no LPG available on the island (fuel only).
+- There's no EV charger on the island — see [Before You Come](../../before-you-come/index.md#important-house-information) if you need to charge an EV during your stay.
 
 ## Our Recommendations
 

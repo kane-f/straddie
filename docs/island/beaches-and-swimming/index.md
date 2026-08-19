@@ -12,10 +12,9 @@ status: review
 
 ## Things To Know
 
-- Vehicle Access Permit required for beach driving — see
-  [Practical Info](../practical/index.md#four-wheel-drive-tracks).
 - Always swim between the flags at patrolled beaches like Cylinder.
 - Check surf conditions at the Point Lookout Surf Lifesaving Club.
+- Planning some 4WD beach driving? See [Things To Do](../things-to-do/index.md#4wd--beach-driving).
 
 ## The Beaches
 

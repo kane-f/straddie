@@ -14,11 +14,11 @@ status: review
 
 !!! tip "Quick summary"
     - Check-in is any time after **2pm**
-    - Check-out is **strictly 10am** or earlier
+    - Check-out is **10am** or earlier
     - Basic kitchen and bathroom supplies are provided
     - No parties/events, no smoking in the house or on the balcony, quiet time after 11pm
-    - Wi-Fi details are provided separately, not published here
-    - The double carport is reserved for unit 2 — don't park there
+    - Wi-Fi details are on the fridge in the house
+    - The double carport downstairs is used by another unit — please don't park there
 
 ## Arrival & Access
 
@@ -54,8 +54,10 @@ _Pending ingestion._
 - Wash any dishes prior to checkout
 - Any damages are paid for out of the security deposit
 
-**Parking:** the double carport is reserved for **unit 2** — please don't
-park under the carport. Park in the car space under the house, or on the street.
+**Parking:** the double carport downstairs is used by another unit —
+please don't park there. Parking is available in the garage under the
+house or on the street. There's no EV charger on the island, but the
+garage does have a power point (up high) if you need to charge an EV.
 
 **BBQ gas bottle:** if it runs out, see [BBQ](../appliances/bbq.md).
 
@@ -64,9 +66,8 @@ park under the carport. Park in the car space under the house, or on the street.
 
 ## Wi-Fi & Internet
 
-!!! warning "No credentials in this repository"
-    The Wi-Fi network name and password are never stored in this public
-    repository. They're provided separately, directly to guests.
+The Wi-Fi network name and password are on the fridge in the house — not
+stored in this public repository.
 
 ## Contact Information
 
