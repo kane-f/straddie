@@ -19,13 +19,29 @@ DOCS_DIR = Path(__file__).resolve().parent.parent / "docs"
 
 LINK_RE = re.compile(r"\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 PLACEHOLDER_MARKERS = ("TODO", "PLACEHOLDER", "NEEDS CONFIRMATION")
+FRONT_MATTER_RE = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
+
+# Pages using a custom template (e.g. the hero landing page) get their H1
+# from the template itself rather than the markdown body — front matter
+# with `template: home.html` is an intentional exception, not a mistake.
+TEMPLATES_WITHOUT_BODY_HEADING = {"home.html"}
 
 
 def find_markdown_files() -> list[Path]:
     return sorted(DOCS_DIR.rglob("*.md"))
 
 
+def uses_headless_template(text: str) -> bool:
+    match = FRONT_MATTER_RE.match(text)
+    if not match:
+        return False
+    template_match = re.search(r"^template:\s*(\S+)\s*$", match.group(1), re.MULTILINE)
+    return bool(template_match) and template_match.group(1) in TEMPLATES_WITHOUT_BODY_HEADING
+
+
 def check_heading(path: Path, text: str, errors: list[str]) -> None:
+    if uses_headless_template(text):
+        return
     if not re.search(r"^#\s+\S", text, re.MULTILINE):
         errors.append(f"{path.relative_to(DOCS_DIR)}: missing a top-level '# Heading'")
 

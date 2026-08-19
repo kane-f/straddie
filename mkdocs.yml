@@ -84,6 +84,12 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/hero-parallax.js
+
 extra:
   generator: false
 
