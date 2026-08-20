@@ -21,18 +21,21 @@
   {{ super() }}
 </div>
 <script>
-  // The CSS `left: 50%; margin-left: -50vw` full-bleed trick assumes
-  // .hero's containing block is horizontally centred in the viewport.
-  // That's only true when mkdocs-material's left nav and right TOC
-  // sidebars are either both showing or both collapsed. At widths where
-  // only one has appeared (its breakpoint differs from the other's),
-  // the content column sits off-centre and the trick leaves the hero
-  // short of one edge with a gap on the other. No CSS-only fix exists
-  // for an asymmetric ancestor, so this corrects the residual gap by
-  // measurement instead — not a per-frame/scroll handler, just a
-  // one-off nudge on load and on resize.
+  // Both fixes below share one shape: pure CSS can't know the real
+  // offset (an asymmetric ancestor horizontally, a header height that
+  // changes across breakpoints vertically), so measure the residual gap
+  // and nudge the margin to close it. Neither is a per-frame/scroll
+  // handler — just a one-off correction on load and on resize.
   (function () {
     function fixHeroBleed() {
+      // The CSS `left: 50%; margin-left: -50vw` full-bleed trick assumes
+      // .hero's containing block is horizontally centred in the
+      // viewport. That's only true when mkdocs-material's left nav and
+      // right TOC sidebars are either both showing or both collapsed —
+      // at widths where only one has appeared (its breakpoint differs
+      // from the other's), the content column sits off-centre and the
+      // trick leaves the hero short of one edge with a gap on the
+      // other.
       var hero = document.querySelector(".hero");
       if (!hero) return;
       var gap = hero.getBoundingClientRect().left;
@@ -41,8 +44,32 @@
         hero.style.marginLeft = current - gap + "px";
       }
     }
-    fixHeroBleed();
-    window.addEventListener("resize", fixHeroBleed);
+
+    function fixHeroTop() {
+      // .hero is pulled up with a negative margin-top so it starts at
+      // the very top of the page (behind the sticky header) rather than
+      // just below it — otherwise its fixed 100dvh height would run
+      // that same amount past the bottom of the screen. The header's
+      // real height varies (the tabs row shown on wide screens adds to
+      // it, and it's hidden on mobile), so a hardcoded margin drifts out
+      // of sync and leaves the hero short at the bottom. Measure where
+      // the top of the page actually is instead of guessing.
+      var hero = document.querySelector(".hero");
+      if (!hero) return;
+      var docTop = hero.getBoundingClientRect().top + window.scrollY;
+      if (Math.abs(docTop) > 0.5) {
+        var current = parseFloat(getComputedStyle(hero).marginTop) || 0;
+        hero.style.marginTop = current - docTop + "px";
+      }
+    }
+
+    function fixHeroLayout() {
+      fixHeroBleed();
+      fixHeroTop();
+    }
+
+    fixHeroLayout();
+    window.addEventListener("resize", fixHeroLayout);
   })();
 </script>
 {% endblock %}
