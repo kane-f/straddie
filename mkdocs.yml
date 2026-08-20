@@ -92,7 +92,7 @@ markdown_extensions:
 # in it. That mismatch (new markup, stale styling) can look like content
 # is missing or broken. Bump this number whenever extra.css changes.
 extra_css:
-  - stylesheets/extra.css?v=2
+  - stylesheets/extra.css?v=3
 
 extra:
   generator: false
