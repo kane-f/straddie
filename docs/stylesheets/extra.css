@@ -106,10 +106,10 @@ html {
    grass (same scroll speed) since it's standing on that same ground. */
 .hero .hero__bird {
   position: absolute;
-  inset: auto 6% 13% auto;
+  inset: auto 5% 10% auto;
   z-index: 2;
   width: auto;
-  height: 22%;
+  height: 34%;
   max-width: none;
   object-fit: contain;
   object-position: bottom right;
@@ -228,7 +228,7 @@ html {
      Tuck it smaller into the corner, low enough to clear the button
      row and sit among the grass instead. */
   .hero .hero__bird {
-    inset: auto 4% 2% auto;
-    height: 12%;
+    inset: auto 3% 1% auto;
+    height: 15%;
   }
 }
