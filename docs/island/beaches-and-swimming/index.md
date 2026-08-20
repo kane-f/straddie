@@ -14,7 +14,7 @@ status: review
 
 - Always swim between the flags at patrolled beaches like Cylinder.
 - Check surf conditions at the Point Lookout Surf Lifesaving Club.
-- Planning some 4WD beach driving? See [Things To Do](../things-to-do/index.md#4wd--beach-driving).
+- Planning some 4WD beach driving? See [Things To Do](../things-to-do/index.md#4wd-beach-driving).
 
 ## The Beaches
 
