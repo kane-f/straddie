@@ -17,6 +17,7 @@ status: review
 
 - [ ] All belongings and any food removed (opened or unopened)
 - [ ] Dishes washed
+- [ ] Sign out of streaming services on TVs
 - [ ] Used towels left in the bathrooms
 - [ ] Rubbish and recycling placed in the council bins provided
 - [ ] [BBQ](../appliances/bbq.md) cleaned — a cleaning fee applies if it's left dirty
