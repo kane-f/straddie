@@ -16,8 +16,7 @@ A gas BBQ, available for guest use.
 
 ## Where It Is
 
-!!! question "Needs confirmation"
-    Exact location not yet confirmed — see [Balcony](../house/balcony/index.md).
+Downstairs, at the rear of the house.
 
 ## Common Tasks
 
@@ -26,7 +25,8 @@ A gas BBQ, available for guest use.
 1. Replace it with a swap & go bottle from **Foodworks at Point Lookout
    (Bob's Shop)**.
 2. Keep a copy of the receipt.
-3. You'll be reimbursed for the cost of the refill at the end of your stay.
+3. The cost can be charged back through Mel — see
+   [Need Help?](../help/index.md) for her contact details.
 
 ## Tips
 

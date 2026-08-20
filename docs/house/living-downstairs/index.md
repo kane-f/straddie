@@ -24,9 +24,13 @@ The downstairs lounge is set up with an Xbox for guests to use.
 The house has smart TVs, SONOS sound, and smart lighting throughout —
 see [Technology & Wi-Fi](../../technology/index.md) for how to use them.
 
-**Xbox** — set up in this room, free for guests to use. Specific
-instructions (which console, controllers, how to sign in) haven't been
-confirmed yet.
+**Xbox** — set up in this room, free for guests to use.
+
+!!! question "Needs confirmation"
+    The exact Xbox model (e.g. Series S vs. Series X) and which games it
+    supports haven't been confirmed yet — add them here once confirmed,
+    since guests deciding whether to bring their own games will want to
+    know. Controller and sign-in instructions are also still pending.
 
 ## Tips & Tricks
 

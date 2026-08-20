@@ -21,11 +21,12 @@ status: review
 - [ ] Rubbish and recycling placed in the council bins provided
 - [ ] [BBQ](../appliances/bbq.md) cleaned — a cleaning fee applies if it's left dirty
 - [ ] Bins put out at the kerb if you're leaving on Sunday (see [Bins](#bins) below)
+- [ ] Key returned to the lockbox — see [Before You Come → Arrival & Access](../before-you-come/index.md#arrival-access)
 
 !!! info "PLACEHOLDER — content pending ingestion"
     Fridges/freezers, linen, lights, air conditioning, doors/windows,
-    keys, and security haven't been confirmed in the source guide yet —
-    add them here once confirmed rather than assuming a generic checklist.
+    and security haven't been confirmed in the source guide yet — add
+    them here once confirmed rather than assuming a generic checklist.
 
 ## Bins
 

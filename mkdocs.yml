@@ -98,7 +98,7 @@ extra:
   generator: false
 
 nav:
-  - Welcome: index.md
+  - Home: index.md
   - Before You Come: before-you-come/index.md
   - House Guide:
       - Overview: house/index.md

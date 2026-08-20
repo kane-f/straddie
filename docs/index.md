@@ -20,8 +20,8 @@ afternoon drink. We hope you enjoy your stay.
 
 - **Check-in** is any time after 2pm — **check-out** is 10am or earlier.
 - Basic kitchen and bathroom supplies are provided.
-- A highchair and a kids' cot are stored in the downstairs bedroom — see
-  [Bedrooms](house/bedrooms/index.md).
+- A highchair and a kids' cot are stored in one of the downstairs
+  bedrooms — see [Bedrooms](house/bedrooms/index.md).
 - The Xbox is in the [Downstairs Living Room](house/living-downstairs/index.md).
 - Wi-Fi details are on the fridge in the house.
 - The double carport downstairs is used by another unit — please don't

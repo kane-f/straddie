@@ -23,10 +23,10 @@ excuse to go visit the real beach during your stay.
 
 </div>
 
-!!! tip "Stored in the downstairs bedroom"
-    A highchair and a kids' cot are stored in the downstairs bedroom for
-    guests to use. The Christmas tree and decorations are also stored
-    there.
+!!! tip "Stored in one of the downstairs bedrooms"
+    A highchair and a kids' cot are stored in one of the downstairs
+    bedrooms for guests to use. The Christmas tree and decorations are
+    also stored there.
 
 !!! warning "House rule"
-    No eating in bedrooms or on sofas.
+    Please don't eat in bedrooms or on the sofas.
