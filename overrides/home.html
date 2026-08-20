@@ -4,6 +4,7 @@
 <div class="hero-page">
   <div class="hero">
     <img class="hero__image" src="{{ 'assets/images/hero/layer-1-background.jpg' | url }}" alt="" loading="eager">
+    <img class="hero__grass" src="{{ 'assets/images/hero/layer-2-grass.webp' | url }}" alt="" loading="eager">
     <div class="hero__scrim"></div>
     <div class="hero__inner md-grid">
       <div class="hero__teaser">
@@ -70,6 +71,45 @@
 
     fixHeroLayout();
     window.addEventListener("resize", fixHeroLayout);
+  })();
+
+  // Two-layer parallax: the background and grass images each shift up
+  // by a fraction of how far we've scrolled into the hero, the grass
+  // (nearer, foreground) faster than the background (farther away) —
+  // that difference in speed is what reads as depth. Only two rAF-batched
+  // scroll reads/writes per frame, and it stops touching the DOM once
+  // the hero has scrolled out of view, so it's not the kind of
+  // per-frame layout work the old 3D-transform version suffered from.
+  (function () {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var hero = document.querySelector(".hero");
+    var bg = document.querySelector(".hero__image");
+    var grass = document.querySelector(".hero__grass");
+    if (!hero || !bg || !grass) return;
+
+    var MAX_SCROLL = 300; // px of scroll over which the effect ramps up
+    var BG_SPEED = 0.06;
+    var GRASS_SPEED = 0.16;
+    var ticking = false;
+
+    function update() {
+      ticking = false;
+      var rect = hero.getBoundingClientRect();
+      if (rect.bottom <= 0 || rect.top >= window.innerHeight) return;
+      var scrolled = Math.min(MAX_SCROLL, Math.max(0, -rect.top));
+      bg.style.transform = "translateY(" + -(scrolled * BG_SPEED) + "px)";
+      grass.style.transform = "translateY(" + -(scrolled * GRASS_SPEED) + "px)";
+    }
+
+    function onScroll() {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    }
+
+    update();
+    window.addEventListener("scroll", onScroll, { passive: true });
   })();
 </script>
 {% endblock %}
