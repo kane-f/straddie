@@ -22,7 +22,16 @@
      so the hero fills the whole first screen, not just the space below
      the header. */
   margin: -146px 0 1.5rem -50vw;
+  /* 100vh is sized to the LARGEST possible viewport (address bar
+     collapsed) on mobile browsers, but on initial load the address bar
+     is usually still showing, so the real visible area is shorter than
+     100vh — the hero falls short of the screen and the next section's
+     background shows through before any scrolling happens. 100dvh
+     tracks the actual visible viewport as the address bar shows/hides,
+     so it stays full-screen either way. Falls back to 100vh on browsers
+     that don't support dvh. */
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   color: #fff;
   background: #0b3d3f;
