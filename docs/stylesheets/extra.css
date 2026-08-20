@@ -13,12 +13,13 @@ html {
 
 /* Hero — homepage only (see overrides/home.html)
 
-   A full-viewport-height section with two image layers (background +
-   foreground grass), a scrim for text legibility, and a scroll-down
-   link. The layers' scroll-linked parallax transform is applied by JS
-   in overrides/home.html; this file just sizes/positions them and
-   leaves room (via the oversized `height`/`inset` below) for that
-   transform to move them without exposing an edge. */
+   A full-viewport-height section with three image layers (background,
+   foreground grass, and the bird standing in it), a scrim for text
+   legibility, and a scroll-down link. The layers' scroll-linked
+   parallax transform is applied by JS in overrides/home.html; this file
+   just sizes/positions them and leaves room (via the oversized
+   `height`/`inset` below) for that transform to move them without
+   exposing an edge. */
 
 .hero-page .md-content__inner {
   margin: 0;
@@ -57,9 +58,9 @@ html {
 }
 
 /* Specificity note: mkdocs-material's `.md-typeset img { height: auto;
-   max-width: 100% }` outranks a plain `.hero__image`/`.hero__grass`
-   (class+type beats a single class), so these need the extra `.hero`
-   ancestor to win. */
+   max-width: 100% }` outranks a plain `.hero__image`/`.hero__grass`/
+   `.hero__bird` (class+type beats a single class), so these need the
+   extra `.hero` ancestor to win. */
 .hero .hero__image {
   position: absolute;
   /* Sized a bit taller than the box itself (and shifted up to stay
@@ -99,9 +100,31 @@ html {
   mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
 }
 
+/* A single small subject standing in the grass, not a full-bleed layer —
+   sized to its own natural shape (object-fit: contain) and anchored to
+   a fixed spot rather than stretched to cover the box. Moves with the
+   grass (same scroll speed) since it's standing on that same ground. */
+.hero .hero__bird {
+  position: absolute;
+  inset: auto 6% 13% auto;
+  z-index: 2;
+  width: auto;
+  height: 22%;
+  max-width: none;
+  object-fit: contain;
+  object-position: bottom right;
+  will-change: transform;
+}
+
+/* Explicit z-index on every layer from here up: without it, the scrim
+   (and the text/button content after it) would default to z-index:auto,
+   which paints at the SAME level as the z-index:0 background — behind
+   any layer above that has its own explicit z-index (grass, bird) —
+   leaving them undarkened and the scrim doing nothing for them. */
 .hero__scrim {
   position: absolute;
   inset: 0;
+  z-index: 3;
   background:
     linear-gradient(0deg, rgba(6, 26, 27, 0.55) 0%, rgba(6, 26, 27, 0) 55%),
     linear-gradient(90deg, rgba(6, 26, 27, 0.45) 0%, rgba(6, 26, 27, 0) 60%);
@@ -110,7 +133,7 @@ html {
 
 .hero__inner {
   position: relative;
-  z-index: 1;
+  z-index: 4;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -159,7 +182,7 @@ html {
 
 .hero__more {
   position: absolute;
-  z-index: 1;
+  z-index: 4;
   bottom: 1.25rem;
   left: 50%;
   width: 2.5rem;
@@ -197,5 +220,15 @@ html {
 @media (max-width: 44.9375em) {
   .hero__teaser h1 {
     font-size: 1.8rem;
+  }
+
+  /* The teaser text runs full-width on narrow screens (rather than
+     sharing the row with the bird, as it does on wider ones), so at
+     its usual size and position the bird sits behind the wrapped text.
+     Tuck it smaller into the corner, low enough to clear the button
+     row and sit among the grass instead. */
+  .hero .hero__bird {
+    inset: auto 4% 2% auto;
+    height: 12%;
   }
 }
