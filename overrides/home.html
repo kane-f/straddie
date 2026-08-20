@@ -20,4 +20,29 @@
 
   {{ super() }}
 </div>
+<script>
+  // The CSS `left: 50%; margin-left: -50vw` full-bleed trick assumes
+  // .hero's containing block is horizontally centred in the viewport.
+  // That's only true when mkdocs-material's left nav and right TOC
+  // sidebars are either both showing or both collapsed. At widths where
+  // only one has appeared (its breakpoint differs from the other's),
+  // the content column sits off-centre and the trick leaves the hero
+  // short of one edge with a gap on the other. No CSS-only fix exists
+  // for an asymmetric ancestor, so this corrects the residual gap by
+  // measurement instead — not a per-frame/scroll handler, just a
+  // one-off nudge on load and on resize.
+  (function () {
+    function fixHeroBleed() {
+      var hero = document.querySelector(".hero");
+      if (!hero) return;
+      var gap = hero.getBoundingClientRect().left;
+      if (Math.abs(gap) > 0.5) {
+        var current = parseFloat(getComputedStyle(hero).marginLeft) || 0;
+        hero.style.marginLeft = current - gap + "px";
+      }
+    }
+    fixHeroBleed();
+    window.addEventListener("resize", fixHeroBleed);
+  })();
+</script>
 {% endblock %}
