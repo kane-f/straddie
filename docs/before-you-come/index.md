@@ -16,14 +16,24 @@ status: review
     - Check-in is any time after **2pm**
     - Check-out is **10am** or earlier
     - Basic kitchen and bathroom supplies are provided
-    - No parties/events, no smoking in the house or on the balcony, quiet time after 11pm
+    - Please don't host parties/events or smoke in the house or on the balcony, and keep noise down after 11pm
     - Wi-Fi details are on the fridge in the house
     - The double carport downstairs is used by another unit — please don't park there
 
 ## Arrival & Access
 
-!!! info "PLACEHOLDER — content pending ingestion"
-    Property address and key/access instructions haven't been confirmed yet.
+**Finding the key:** the house key is kept in a lockbox at the property.
+Mel (your property manager) will send you the lockbox code ahead of
+your stay — see [Need Help?](../help/index.md) for her contact details
+if you haven't received it by check-in day.
+
+!!! question "Needs confirmation"
+    The lockbox's exact location on the property hasn't been confirmed
+    yet — add it here once confirmed (e.g. "by the front door").
+
+!!! warning "Before you leave"
+    Please return the key to the lockbox before you check out — see
+    [Before You Leave](../before-you-leave/checkout.md).
 
 ## Check-In
 
@@ -31,6 +41,9 @@ Check-in is any time after **2pm**. You'll find some basic kitchen and
 bathroom supplies in the house ready to use when you arrive.
 
 ## What's Already Provided
+
+Basic amenities are provided to get you started — enough for a night or
+two without needing a shop run:
 
 - Basic kitchen supplies
 - Basic bathroom supplies
@@ -40,18 +53,28 @@ bathroom supplies in the house ready to use when you arrive.
 
 ## Things to Bring / Don't Need to Bring
 
+If you're staying longer than a night or two, we'd recommend bringing a
+few extra consumables, since what's provided is only enough to get you
+started:
+
+- Toilet paper
+- Dishwasher tablets
+- Tea/coffee
+- Laundry powder
 - Coffee pods, if you use a pod coffee machine
+- Any other consumables you'll go through over a longer stay
 
 ## Important House Information
 
 **House rules:**
 
-- No parties or events
+- Please don't host parties or events
 - Only registered guests are allowed to stay overnight
-- No smoking in the house or on the balcony/decks
-- Quiet time after 11pm
-- No eating in bedrooms or on sofas
-- Wash any dishes prior to checkout
+- Please don't smoke in the house or on the balcony/decks
+- Please keep noise down after 11pm
+- Please don't eat in bedrooms or on the sofas
+- Please don't sit on the sofas in wet swimwear or wet clothes — it can leave stains
+- Please wash any dishes prior to checkout
 - Any damages are paid for out of the security deposit
 
 **Parking:** the double carport downstairs is used by another unit —
