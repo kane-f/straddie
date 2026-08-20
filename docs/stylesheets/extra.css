@@ -32,6 +32,18 @@ html {
 
 .hero {
   position: relative;
+  /* mkdocs-material's sticky header is also z-index: 4, same as
+     .hero__inner/.hero__more below — and .hero itself had no z-index of
+     its own to contain them, so those children were being compared
+     directly against the header in the SAME stacking context. Tied
+     z-index falls back to DOM order, and .hero comes after the header,
+     so its text/button won the tie and scrolled on top of the header
+     bar instead of underneath it. Giving .hero its own (lower) z-index
+     makes it a self-contained stacking context: everything inside it
+     stacks internally as before, but the whole thing now competes
+     against the header as one unit — at a value below the header's, so
+     it can never paint over it again regardless of DOM order. */
+  z-index: 0;
   left: 50%;
   width: 100vw;
   /* Pull up behind the sticky header so the hero fills the whole first
