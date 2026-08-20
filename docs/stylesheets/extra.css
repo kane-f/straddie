@@ -1,3 +1,16 @@
+/* Animate in-page anchor jumps (e.g. the hero's "Start Here" button and
+   down-arrow) instead of snapping straight there. Site-wide, not
+   hero-specific — this is what makes any #anchor link scroll smoothly. */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 /* Simple hero — homepage only (see overrides/home.html)
 
    Deliberately plain: one full-viewport-height section, one background
@@ -18,10 +31,14 @@
   position: relative;
   left: 50%;
   width: 100vw;
-  /* Pull up behind the sticky header + tabs bar (~146px combined here)
-     so the hero fills the whole first screen, not just the space below
-     the header. */
-  margin: -146px 0 1.5rem -50vw;
+  /* Pull up behind the sticky header so the hero fills the whole first
+     screen, not just the space below the header. This default matches
+     the header+tabs height on wide screens; overrides/home.html measures
+     the real height on load/resize and corrects it precisely, since it
+     varies (the tabs row only shows on wide screens; the previous
+     hardcoded value drifted out of sync and left the hero short at the
+     bottom). */
+  margin: -96px 0 1.5rem -50vw;
   /* 100vh is sized to the LARGEST possible viewport (address bar
      collapsed) on mobile browsers, but on initial load the address bar
      is usually still showing, so the real visible area is shorter than
