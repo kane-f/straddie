@@ -1,0 +1,13 @@
+# Template for the Wi-Fi plaque's real config.
+#
+# Copy this file to wifi.local.yml (already gitignored — see .gitignore)
+# and fill in the real network details there. wifi.local.yml, and every
+# image the generator writes from it, must never be committed: the QR
+# code encodes the password directly, so the *image* is a secret, not
+# just this config file.
+#
+# security: one of WPA (WPA/WPA2/WPA3 personal), WEP, or nopass (open network)
+
+ssid: "Network Name"
+password: "network-password"
+security: WPA
