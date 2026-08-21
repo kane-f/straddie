@@ -18,7 +18,8 @@ listing photos to get your bearings.
 ## House Layout
 
 - **Upstairs:** master bedroom, kitchen, and dining room
-- **Downstairs:** the other three bedrooms, downstairs living room, and bathroom
+- **Downstairs:** the other three bedrooms, downstairs living room,
+  [bathroom](bathroom/index.md), and [laundry](laundry/index.md)
 
 Both levels have their own balcony, great spots to relax and enjoy the
 sun — see [Balcony](balcony/index.md).
@@ -40,6 +41,8 @@ Pick a room or area below for how-to instructions, technology, tips, and trouble
 -   **[Downstairs Living Room](living-downstairs/index.md)**
 -   **[Balcony](balcony/index.md)**
 -   **[Bedrooms](bedrooms/index.md)**
+-   **[Bathroom](bathroom/index.md)**
+-   **[Laundry](laundry/index.md)**
 
 </div>
 

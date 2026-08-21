@@ -17,9 +17,10 @@ Point Lookout, ideal for a peaceful walk or relaxing on the shore
 (swimming isn't recommended there due to currents). See the full entry in
 the [Island Guide](../../../island/beaches-and-swimming/index.md#frenchmans-beach).
 
-!!! info "PLACEHOLDER — content pending ingestion"
-    Bed configuration, ensuite, and views for this room haven't been
-    confirmed yet.
+!!! info "From the photos"
+    Looks like a queen bed, built-in wardrobe, and windows over the
+    street with a glimpse of the hill behind — worth confirming the
+    exact bed size and whether there's an ensuite.
 
 ## Things Guests Often Miss
 
@@ -27,4 +28,18 @@ _Pending ingestion._
 
 ## Photos
 
-_Pending ingestion._
+<div class="photo-grid" markdown>
+
+![Frenchmans bedroom artwork and chair](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-artwork-and-chair.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-artwork-and-chair.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-artwork-and-chair.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+
+![Frenchmans bedroom bed, with artwork above](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-artwork.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-artwork.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-artwork.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+
+![Frenchmans bedroom, with a view over the hill](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-hill-view.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+
+![Frenchmans bedroom bed and built-in wardrobe](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-wardrobe.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+
+![Frenchmans bedroom, with windows over the street](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-windows.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-windows.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-windows.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+
+![Frenchmans bedroom chair by the window](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-chair-and-street-view.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-chair-and-street-view.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-chair-and-street-view.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+
+</div>

@@ -52,6 +52,16 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: false
       fallback_to_build_date: true
+  - glightbox:
+      # Each photo-grid image's markdown `src` is the full-size photo (this
+      # is what glightbox opens in the lightbox), with a `srcset`/`sizes`
+      # attribute so the browser actually displays the small thumbnail in
+      # the grid tile. `data-gallery` groups images into carousels — see
+      # extra.css and the room/gallery pages. auto_caption uses each
+      # image's alt text as the caption so we don't have to repeat it.
+      auto_caption: true
+      caption_position: bottom
+      loop: true
   - minify:
       minify_html: true
 
@@ -92,7 +102,7 @@ markdown_extensions:
 # in it. That mismatch (new markup, stale styling) can look like content
 # is missing or broken. Bump this number whenever extra.css changes.
 extra_css:
-  - stylesheets/extra.css?v=4
+  - stylesheets/extra.css?v=5
 
 extra:
   generator: false
@@ -107,6 +117,8 @@ nav:
       - Upstairs Living Room: house/living-upstairs/index.md
       - Downstairs Living Room: house/living-downstairs/index.md
       - Balcony: house/balcony/index.md
+      - Bathroom: house/bathroom/index.md
+      - Laundry: house/laundry/index.md
       - Bedrooms:
           - Overview: house/bedrooms/index.md
           - Flinders: house/bedrooms/flinders/index.md
