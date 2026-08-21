@@ -16,94 +16,93 @@
 # for the bedrooms, which are named after beaches, and for the two
 # living rooms, which share a name and are told apart by floor).
 #
-# `color` / `color_name` are the room's plaque background colour — a
-# beach/coastal-themed palette, one hue per room, documented in full in
-# plaques/DESIGN-SYSTEM.md. Colours range from pale sand/foam to deep
-# ocean/night, on purpose (a real beach spans both) — the generator picks
-# legible ink (white or dark teal) and an accent shade automatically per
-# colour, computed from contrast, so no per-room text-colour choice is
-# needed here.
+# `color` / `color_name` are drawn from the house's official "Coastal
+# Colour Palette" moodboard (sourced via ingest/, not committed — see
+# plaques/DESIGN-SYSTEM.md for the full named palette and the mapping
+# rationale). The generator picks legible ink (white or dark teal) and an
+# accent shade automatically per colour, computed from contrast, so no
+# per-room text-colour choice is needed here.
 
 rooms:
   - slug: kitchen
     name: Kitchen
     url: house/kitchen/
     background: docs/assets/images/house/kitchen/kitchen-island-and-cooktop.jpg
-    color: "#35b6ad"
-    color_name: Lagoon Turquoise
+    color: "#6DB7B5"
+    color_name: Sea Glass
 
   - slug: dining
     name: Dining Room
     url: house/dining/
     background: docs/assets/images/house/dining/dining-table-and-living-area.jpg
-    color: "#964c2c"
-    color_name: Sunset Clay
+    color: "#C8BCA6"
+    color_name: Sandy Taupe
 
   - slug: living-upstairs
     name: Living Room
     kicker: Upstairs
     url: house/living-upstairs/
     background: docs/assets/images/house/living-upstairs/upstairs-lounge-sofa-and-ocean-view.jpg
-    color: "#276b9b"
-    color_name: Ocean Blue
+    color: "#B7CCE1"
+    color_name: Coastal Sky
 
   - slug: living-downstairs
     name: Living Room
     kicker: Downstairs
     url: house/living-downstairs/
     background: docs/assets/images/house/living-downstairs/downstairs-lounge-sofa-and-coffee-table.jpg
-    color: "#327b57"
-    color_name: Palm Green
+    color: "#7FA17F"
+    color_name: Light Forest Green
 
   - slug: balcony
     name: Balcony
     url: house/balcony/
     background: docs/assets/images/house/balcony/balcony-sunset-view.jpg
-    color: "#9b505c"
-    color_name: Dusk Rose
+    color: "#F1D9A6"
+    color_name: Sunlit Glow
 
   - slug: bathroom
     name: Bathroom
     url: house/bathroom/
     background: docs/assets/images/house/bathroom/bathroom-bathtub-under-window.jpg
-    color: "#baded5"
+    color: "#BFD8C6"
     color_name: Sea Foam
 
   - slug: laundry
     name: Laundry
     url: house/laundry/
     background: docs/assets/images/house/laundry/laundry-room-and-yard-door.jpg
-    color: "#c1ac90"
-    color_name: Driftwood Sand
+    color: "#D8C7A6"
+    color_name: Driftwood
 
   - slug: bedroom-main
     name: Main
     kicker: Bedroom
     url: house/bedrooms/main/
     background: docs/assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway.jpg
-    color: "#212f50"
-    color_name: Deep Tide
+    color: "#26507A"
+    color_name: Deep Cornflour Blue
 
   - slug: bedroom-flinders
     name: Flinders
     kicker: Bedroom
     url: house/bedrooms/flinders/
     background: docs/assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg
-    color: "#25799d"
-    color_name: Flinders Surf
+    color: "#A6D3D6"
+    color_name: Tide Pool
 
   - slug: bedroom-frenchmans
     name: Frenchmans
     kicker: Bedroom
     url: house/bedrooms/frenchmans/
     background: docs/assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg
-    color: "#227769"
-    color_name: Frenchmans Lagoon
+    color: "#6E8B6F"
+    color_name: Coastal Green
 
   - slug: bedroom-cylinder
     name: Cylinder
     kicker: Bedroom
     url: house/bedrooms/cylinder/
     background: docs/assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-balcony-window.jpg
-    color: "#e0b152"
-    color_name: Cylinder Gold
+    color: "#E7DFC9"
+    color_name: Soft Sand
