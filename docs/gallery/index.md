@@ -234,7 +234,7 @@ Each bedroom is named after a Point Lookout beach — see
 
 <div class="photo-grid" markdown>
 
-![Kangaroos grazing nearby](../assets/images/gallery/island/kangaroos-grazing-on-grass.jpg){srcset="../assets/images/gallery/island/thumbs/kangaroos-grazing-on-grass.jpg 480w, ../assets/images/gallery/island/kangaroos-grazing-on-grass.jpg 1600w" sizes="200px" data-gallery="island"}
+![Kangaroos grazing nearby](../assets/images/gallery/island/kangaroos-grazing-on-grass-editorial.jpg){srcset="../assets/images/gallery/island/thumbs/kangaroos-grazing-on-grass-editorial.jpg 480w, ../assets/images/gallery/island/kangaroos-grazing-on-grass-editorial.jpg 1600w" sizes="200px" data-gallery="island"}
 
 </div>
 
