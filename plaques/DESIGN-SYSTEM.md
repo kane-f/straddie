@@ -14,43 +14,72 @@ Each plaque is a small, framed piece of house signage: a photo of the
 room, its name, and a QR code to the matching page in the guest guide.
 The set is meant to read as one family once framed around the house —
 same layout, same typography, same brand marks — while each room gets
-its own identity through colour, tied to a real element of the island's
-beaches rather than an arbitrary swatch.
+its own identity through colour, drawn from the house's official
+**Coastal Colour Palette** moodboard rather than an invented swatch.
 
 ## Colour palette
 
-One background colour per room, each named after a literal beach/coastal
-element rather than an abstract colour-story name — the point is that
-someone looking at "Sunset Clay" or "Driftwood Sand" should be able to
-picture the thing, not just the hex code.
+### Source
 
-| Room | Token | Hex | Card |
+The full palette (13 named, hex-specified colours) came in as a
+moodboard image via `ingest/` — like all raw ingest material it isn't
+committed (see `.gitignore` / `README.md`'s ingest note); this table is
+the durable, checked-in record of it:
+
+| Colour | Hex | Tier |
+|---|---|---|
+| Deep Cornflour Blue | `#26507A` | Primary |
+| Light Forest Green | `#7FA17F` | Primary |
+| Sandy Taupe | `#C8BCA6` | Primary |
+| Ocean Depth | `#1F3D4D` | Secondary |
+| Sea Glass | `#6DB7B5` | Secondary |
+| Tide Pool | `#A6D3D6` | Secondary |
+| Soft Sand | `#E7DFC9` | Secondary |
+| Driftwood | `#D8C7A6` | Secondary |
+| Dune Grass | `#A8B89A` | Secondary |
+| Coastal Green | `#6E8B6F` | Secondary |
+| Sea Foam | `#BFD8C6` | Secondary |
+| Coastal Sky | `#B7CCE1` | Secondary |
+| Sunlit Glow | `#F1D9A6` | Secondary |
+
+### Room mapping
+
+| Room | Colour | Hex | Card |
 |---|---|---|---|
-| Kitchen | Lagoon Turquoise | `#35b6ad` | light |
-| Dining Room | Sunset Clay | `#964c2c` | dark |
-| Living Room — Upstairs | Ocean Blue | `#276b9b` | dark |
-| Living Room — Downstairs | Palm Green | `#327b57` | dark |
-| Balcony | Dusk Rose | `#9b505c` | dark |
-| Bathroom | Sea Foam | `#baded5` | light |
-| Laundry | Driftwood Sand | `#c1ac90` | light |
-| Bedroom — Main | Deep Tide | `#212f50` | dark |
-| Bedroom — Flinders | Flinders Surf | `#25799d` | dark |
-| Bedroom — Frenchmans | Frenchmans Lagoon | `#227769` | dark |
-| Bedroom — Cylinder | Cylinder Gold | `#e0b152` | light |
-| Wi-Fi *(utility, not a room)* | Night Sky | `#1d1631` | dark |
+| Kitchen | Sea Glass | `#6DB7B5` | light |
+| Dining Room | Sandy Taupe | `#C8BCA6` | light |
+| Living Room — Upstairs | Coastal Sky | `#B7CCE1` | light |
+| Living Room — Downstairs | Light Forest Green | `#7FA17F` | light |
+| Balcony | Sunlit Glow | `#F1D9A6` | light |
+| Bathroom | Sea Foam | `#BFD8C6` | light |
+| Laundry | Driftwood | `#D8C7A6` | light |
+| Bedroom — Main | Deep Cornflour Blue | `#26507A` | dark |
+| Bedroom — Flinders | Tide Pool | `#A6D3D6` | light |
+| Bedroom — Frenchmans | Coastal Green | `#6E8B6F` | dark |
+| Bedroom — Cylinder | Soft Sand | `#E7DFC9` | light |
+| Wi-Fi *(utility, not a room)* | Ocean Depth | `#1F3D4D` | dark |
 
-The three beach-named bedrooms (Flinders, Frenchmans, Cylinder) each draw
-their colour from that actual beach's character — Flinders' surf, the
-calm emerald water at Frenchmans, Cylinder's golden sand and sunrise
-headland. Main (not beach-named) gets the moodiest, most premium tone,
-fitting the primary suite. Wi-Fi deliberately sits outside the beach hue
-range (indigo) so it never gets mistaken for a room.
+`Dune Grass` isn't used by any current room — free to assign if a 12th
+area gets a plaque later.
 
-**On purpose, not every colour is dark.** A real beach spans pale sand
-and sea foam as well as deep ocean and night sky — forcing every plaque
-to the same dark value read as a generic "moody hotel" palette rather
-than a beach. Four colours (Kitchen, Bathroom, Laundry, Cylinder) are
-intentionally light.
+Mapping logic: Flinders (a swimming/surf beach) gets the clear
+shallow-water **Tide Pool**; Frenchmans (calm water, bush-backed) gets
+the richer **Coastal Green**; Cylinder (its sand and sunrise headland)
+gets the palest, warmest neutral, **Soft Sand**. Main — not
+beach-named — gets the moodiest, most saturated colour in the whole set,
+**Deep Cornflour Blue**, fitting the primary suite. Wi-Fi takes
+**Ocean Depth**, the single darkest colour in the palette, so it reads
+as clearly apart from every room.
+
+**Most of the palette is pale.** Unlike a hand-picked "one deep jewel
+tone per room" approach, the actual Coastal Colour Palette leans light
+and muted — closer to painted weatherboard and sun-bleached textiles
+than saturated colour blocking. Only two rooms (Main, Wi-Fi) end up
+dark-card; light-card is now the norm, not the exception. `Coastal
+Green` (Frenchmans) and `Light Forest Green` (Living Room — Downstairs)
+sit a little under the 4.5:1 contrast rule below (4.17 and 3.76 against
+their better-contrasting ink) — still clearly legible at the room name's
+large display size, just not to the same margin as the rest of the set.
 
 ### Adaptive ink and accent
 
@@ -161,8 +190,11 @@ name like "Downstairs Living Room" — split here into kicker
 
 1. Add an entry to `plaques/rooms.yml`: `slug`, `name`, optional
    `kicker`, `url`, `background`, `color`, `color_name`.
-2. Pick a colour that (a) ties to a real beach/coastal element and (b)
-   clears the 4.5:1 contrast rule above.
+2. Pick a colour — `Dune Grass` (`#A8B89A`) is the one unused colour left
+   in the official palette above. If it's already spoken for, either
+   reuse a used colour (fine — it just won't be unique to that room) or
+   extend the palette with a new named colour that clears the 4.5:1
+   contrast rule below.
 3. Run `python3 plaques/swatches.py` to sanity-check it against the rest
    of the set before generating the full plaque.
 4. Run `python3 plaques/generate.py <slug>`.
