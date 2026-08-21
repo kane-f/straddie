@@ -35,12 +35,12 @@ _Pending ingestion._
 
 <div class="photo-grid" markdown>
 
-![Flinders bedroom closet and chair](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-closet-and-chair.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-closet-and-chair.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-closet-and-chair.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
+![Flinders bedroom closet and chair](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-closet-and-chair-editorial.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-closet-and-chair-editorial.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-closet-and-chair-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
-![Flinders bedroom, surf-themed prints above the bed](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-single-bed-and-surf-art.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
+![Flinders bedroom, surf-themed prints above the bed](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art-editorial.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-single-bed-and-surf-art-editorial.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
-![Flinders bedroom, twin bed by the window](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-bed-and-window.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
+![Flinders bedroom, twin bed by the window](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window-editorial.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-bed-and-window-editorial.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
-![Flinders bedroom's two single beds](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-beds-and-nightstand.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
+![Flinders bedroom's two single beds](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand-editorial.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-beds-and-nightstand-editorial.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
 </div>

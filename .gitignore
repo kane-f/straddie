@@ -26,3 +26,13 @@ venv/
 *.pem
 *.key
 secrets.*
+
+# Plaque generator: real Wi-Fi credentials, and the image generated from
+# them (the QR code encodes the password directly) — room plaques in
+# plaques/output/ don't contain secrets and are tracked normally.
+/plaques/wifi.local.yml
+/plaques/output/wifi.png
+
+# Palette review sheet from plaques/swatches.py — a working file, not a
+# deliverable.
+/plaques/output/swatches.png
