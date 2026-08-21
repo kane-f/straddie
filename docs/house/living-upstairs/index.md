@@ -20,6 +20,19 @@ The house has smart TVs, SONOS sound, and smart lighting throughout —
 see [Technology & Wi-Fi](../../technology/index.md) for how to use them.
 It hasn't been confirmed which specific devices are in this room.
 
+- **Air conditioning:** yes, with a Sensibo controller — see
+  [Technology & Wi-Fi](../../technology/index.md#air-conditioning-sensibo).
+
+## Voice Commands
+
+**Climate**
+
+> "Hey Alexa, turn on the upstairs living room AC"
+
+> "Hey Alexa, set the upstairs living room AC to 22 degrees"
+
+> "Hey Alexa, turn off the upstairs living room AC"
+
 ## Tips & Tricks
 
 _Pending ingestion._

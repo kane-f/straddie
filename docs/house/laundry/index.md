@@ -12,13 +12,19 @@ status: draft
 
 ## Overview
 
-A downstairs laundry with a washer and dryer, a sink, an iron and
-ironing board, and a mop and broom. The door out to the backyard is
-also through here.
+A downstairs laundry with an Asko washing machine and Asko heat-pump
+dryer, a sink, an iron and ironing board, and a mop and broom. The door
+out to the backyard is also through here. Hair dryers are also kept in
+the house — see [Before You Come](../../before-you-come/index.md#whats-already-provided).
+
+## How To Use Things
+
+- [Washing Machine](../../appliances/washing-machine.md) — Asko
+- [Dryer](../../appliances/dryer.md) — Asko heat-pump
 
 !!! info "PLACEHOLDER — content pending ingestion"
-    Washer/dryer models and how to use them (cycle guide, where the
-    detergent is, drying rack vs. dryer) haven't been confirmed yet.
+    The exact cycle guide and where the detergent is kept haven't been
+    confirmed yet — see the appliance pages above for what is known.
 
 !!! tip "Keep an eye out"
     Kangaroos are sometimes spotted on the lawn right outside the

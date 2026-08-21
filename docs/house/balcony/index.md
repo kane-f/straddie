@@ -22,6 +22,10 @@ owners' favourite: relaxing on the deck, admiring the view.
     Grab a drink and enjoy the view from either balcony — the upstairs
     one is what the owners love most about this house.
 
+!!! tip "Rinse off before heading in"
+    There's a tap on the front balcony for washing the sand off your
+    feet — handy for keeping sand out of the house.
+
 ## House Rules
 
 !!! warning "No smoking"
@@ -29,9 +33,9 @@ owners' favourite: relaxing on the deck, admiring the view.
 
 ## The BBQ
 
-The gas BBQ is downstairs at the rear of the house, not on the balcony —
-see [BBQ](../../appliances/bbq.md) for how to use it and what to do if
-the gas bottle runs out.
+The Weber Family Q lives here on the balcony — see [BBQ](../../appliances/bbq.md)
+for how to use it (including a tip for cold/windy nights) and what to do
+if the gas bottle runs out.
 
 ## Things Guests Often Miss
 

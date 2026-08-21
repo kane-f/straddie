@@ -1,10 +1,10 @@
 ---
 title: BBQ
-description: What to do if the gas bottle runs out, and cleaning expectations.
+description: The Weber Family Q on the balcony — warm-up tips, gas bottles, and cleaning expectations.
 section: appliances
-tags: [bbq, gas]
-last_reviewed: 2026-08-19
-source: ingest/welcome-pack-2024.md
+tags: [bbq, gas, weber]
+last_reviewed: 2026-08-21
+source: ingest/welcome-pack-2024.md, walkthrough notes 2026-08-21
 status: review
 ---
 
@@ -12,21 +12,27 @@ status: review
 
 ## What It Is
 
-A gas BBQ, available for guest use.
+A **Weber Family Q**, available for guest use.
+
+!!! question "Correction"
+    Earlier notes had this as a swap-and-go gas BBQ downstairs at the
+    rear of the house. A walkthrough and the balcony photos confirm it's
+    actually the Weber Family Q on the balcony — this page now reflects
+    that. If there's a second BBQ downstairs as well, let us know so
+    both can be documented.
 
 ## Where It Is
 
-Downstairs, at the rear of the house.
+On the balcony — see [Balcony](../house/balcony/index.md) for photos.
 
-## Common Tasks
+## Quick Start
 
-**If the gas bottle runs out:**
+On cold or windy nights, the Weber can take a little longer to warm up.
+The best approach:
 
-1. Replace it with a swap & go bottle from **Foodworks at Point Lookout
-   (Bob's Shop)**.
-2. Keep a copy of the receipt.
-3. The cost can be charged back through Mel — see
-   [Need Help?](../help/index.md) for her contact details.
+1. Light it and leave the **lid down** while it heats.
+2. Give it roughly **15–20 minutes** to come up to temperature.
+3. Check the **temperature gauge** on the front to see where it's at.
 
 ## Tips
 
@@ -36,7 +42,8 @@ Keep the BBQ clean as you go — it's much easier than a big clean at the end.
 
 | Problem | Fix |
 | --- | --- |
-| Gas bottle empty | Swap & go from Foodworks Point Lookout (Bob's Shop); keep the receipt for reimbursement |
+| Slow to heat on a cold or windy night | Leave the lid down and give it 15–20 minutes; check the gauge rather than opening the lid to look |
+| Gas bottle empty | Swap & go from Foodworks at Point Lookout (Bob's Shop); keep the receipt — the cost can be charged back through Mel, see [Need Help?](../help/index.md) |
 
 ## Before You Leave
 
@@ -46,8 +53,8 @@ Keep the BBQ clean as you go — it's much easier than a big clean at the end.
 
 ## Manual
 
-_Pending ingestion — manufacturer and model not yet confirmed._
+_Pending ingestion — exact Weber Family Q model and manual not yet confirmed._
 
 ## Photos
 
-_Pending ingestion._
+See the Weber, covered, on the [Balcony](../house/balcony/index.md) page.

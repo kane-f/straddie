@@ -21,6 +21,22 @@ and swimmers, patrolled in sections. See the full entry in the
     robe — the only bedroom with either. Looks like a queen bed with a
     wall-mounted TV; worth confirming the exact bed size and the view.
 
+## Technology
+
+- **TV:** Samsung Frame TV — see [Technology & Wi-Fi](../../../technology/index.md#tv).
+- **Air conditioning:** yes, with a Sensibo controller — see
+  [Technology & Wi-Fi](../../../technology/index.md#air-conditioning-sensibo).
+
+## Voice Commands
+
+**Climate**
+
+> "Hey Alexa, turn on the Main bedroom AC"
+
+> "Hey Alexa, set the Main bedroom AC to 22 degrees"
+
+> "Hey Alexa, turn off the Main bedroom AC"
+
 ## Things Guests Often Miss
 
 _Pending ingestion._
