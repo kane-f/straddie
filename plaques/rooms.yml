@@ -28,22 +28,22 @@ rooms:
     name: Kitchen
     url: house/kitchen/
     background: docs/assets/images/house/kitchen/kitchen-island-and-cooktop.jpg
-    color: "#6DB7B5"
+    color: "#B3D6CE"
     color_name: Sea Glass
 
   - slug: dining
     name: Dining Room
     url: house/dining/
     background: docs/assets/images/house/dining/dining-table-and-living-area.jpg
-    color: "#C8BCA6"
-    color_name: Sandy Taupe
+    color: "#F2A461"
+    color_name: Sunset Clay
 
   - slug: living-upstairs
     name: Living Room
     kicker: Upstairs
     url: house/living-upstairs/
     background: docs/assets/images/house/living-upstairs/upstairs-lounge-sofa-and-ocean-view.jpg
-    color: "#B7CCE1"
+    color: "#BFD8EE"
     color_name: Coastal Sky
 
   - slug: living-downstairs
@@ -58,21 +58,21 @@ rooms:
     name: Balcony
     url: house/balcony/
     background: docs/assets/images/house/balcony/balcony-sunset-view.jpg
-    color: "#F1D9A6"
-    color_name: Sunlit Glow
+    color: "#E07A3A"
+    color_name: Sunset Ochre
 
   - slug: bathroom
     name: Bathroom
     url: house/bathroom/
     background: docs/assets/images/house/bathroom/bathroom-bathtub-under-window.jpg
-    color: "#BFD8C6"
+    color: "#D6E7E0"
     color_name: Sea Foam
 
   - slug: laundry
     name: Laundry
     url: house/laundry/
     background: docs/assets/images/house/laundry/laundry-room-and-yard-door.jpg
-    color: "#D8C7A6"
+    color: "#DCC8AD"
     color_name: Driftwood
 
   - slug: bedroom-main
@@ -88,7 +88,7 @@ rooms:
     kicker: Bedroom
     url: house/bedrooms/flinders/
     background: docs/assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg
-    color: "#A6D3D6"
+    color: "#C9E3E6"
     color_name: Tide Pool
 
   - slug: bedroom-frenchmans
@@ -96,13 +96,13 @@ rooms:
     kicker: Bedroom
     url: house/bedrooms/frenchmans/
     background: docs/assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg
-    color: "#6E8B6F"
-    color_name: Coastal Green
+    color: "#D9E2CC"
+    color_name: Dune Grass
 
   - slug: bedroom-cylinder
     name: Cylinder
     kicker: Bedroom
     url: house/bedrooms/cylinder/
     background: docs/assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-balcony-window.jpg
-    color: "#E7DFC9"
-    color_name: Soft Sand
+    color: "#FFD79A"
+    color_name: Sunlit Glow

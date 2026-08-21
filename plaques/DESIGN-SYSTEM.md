@@ -21,65 +21,75 @@ its own identity through colour, drawn from the house's official
 
 ### Source
 
-The full palette (13 named, hex-specified colours) came in as a
+The full palette (14 named, hex-specified colours) came in as a
 moodboard image via `ingest/` — like all raw ingest material it isn't
 committed (see `.gitignore` / `README.md`'s ingest note); this table is
-the durable, checked-in record of it:
+the durable, checked-in record of it. **This palette has been revised
+once already** (the original had no true warm/orange colours — Ocean
+Depth and Coastal Green from that version are gone, replaced with Sunset
+Ochre, Sunset Clay, and Outback Earth); if `ingest/` gets another updated
+moodboard, update this table and the mapping below to match, the same
+way this revision did.
 
 | Colour | Hex | Tier |
 |---|---|---|
 | Deep Cornflour Blue | `#26507A` | Primary |
 | Light Forest Green | `#7FA17F` | Primary |
 | Sandy Taupe | `#C8BCA6` | Primary |
-| Ocean Depth | `#1F3D4D` | Secondary |
-| Sea Glass | `#6DB7B5` | Secondary |
-| Tide Pool | `#A6D3D6` | Secondary |
-| Soft Sand | `#E7DFC9` | Secondary |
-| Driftwood | `#D8C7A6` | Secondary |
-| Dune Grass | `#A8B89A` | Secondary |
-| Coastal Green | `#6E8B6F` | Secondary |
-| Sea Foam | `#BFD8C6` | Secondary |
-| Coastal Sky | `#B7CCE1` | Secondary |
-| Sunlit Glow | `#F1D9A6` | Secondary |
+| Sunset Ochre | `#E07A3A` | Primary |
+| Sea Glass | `#B3D6CE` | Secondary |
+| Tide Pool | `#C9E3E6` | Secondary |
+| Soft Sand | `#F0E5D2` | Secondary |
+| Driftwood | `#DCC8AD` | Secondary |
+| Dune Grass | `#D9E2CC` | Secondary |
+| Sea Foam | `#D6E7E0` | Secondary |
+| Coastal Sky | `#BFD8EE` | Secondary |
+| Sunlit Glow | `#FFD79A` | Secondary |
+| Sunset Clay | `#F2A461` | Secondary |
+| Outback Earth | `#EFB88B` | Secondary |
 
 ### Room mapping
 
 | Room | Colour | Hex | Card |
 |---|---|---|---|
-| Kitchen | Sea Glass | `#6DB7B5` | light |
-| Dining Room | Sandy Taupe | `#C8BCA6` | light |
-| Living Room — Upstairs | Coastal Sky | `#B7CCE1` | light |
+| Kitchen | Sea Glass | `#B3D6CE` | light |
+| Dining Room | Sunset Clay | `#F2A461` | light |
+| Living Room — Upstairs | Coastal Sky | `#BFD8EE` | light |
 | Living Room — Downstairs | Light Forest Green | `#7FA17F` | light |
-| Balcony | Sunlit Glow | `#F1D9A6` | light |
-| Bathroom | Sea Foam | `#BFD8C6` | light |
-| Laundry | Driftwood | `#D8C7A6` | light |
+| Balcony | Sunset Ochre | `#E07A3A` | light |
+| Bathroom | Sea Foam | `#D6E7E0` | light |
+| Laundry | Driftwood | `#DCC8AD` | light |
 | Bedroom — Main | Deep Cornflour Blue | `#26507A` | dark |
-| Bedroom — Flinders | Tide Pool | `#A6D3D6` | light |
-| Bedroom — Frenchmans | Coastal Green | `#6E8B6F` | dark |
-| Bedroom — Cylinder | Soft Sand | `#E7DFC9` | light |
-| Wi-Fi *(utility, not a room)* | Ocean Depth | `#1F3D4D` | dark |
+| Bedroom — Flinders | Tide Pool | `#C9E3E6` | light |
+| Bedroom — Frenchmans | Dune Grass | `#D9E2CC` | light |
+| Bedroom — Cylinder | Sunlit Glow | `#FFD79A` | light |
+| Wi-Fi *(utility, not a room)* | Outback Earth | `#EFB88B` | light |
 
-`Dune Grass` isn't used by any current room — free to assign if a 12th
-area gets a plaque later.
+`Sandy Taupe` and `Soft Sand` aren't used by any current room — free to
+assign if a 12th area gets a plaque later.
 
-Mapping logic: Flinders (a swimming/surf beach) gets the clear
-shallow-water **Tide Pool**; Frenchmans (calm water, bush-backed) gets
-the richer **Coastal Green**; Cylinder (its sand and sunrise headland)
-gets the palest, warmest neutral, **Soft Sand**. Main — not
-beach-named — gets the moodiest, most saturated colour in the whole set,
-**Deep Cornflour Blue**, fitting the primary suite. Wi-Fi takes
-**Ocean Depth**, the single darkest colour in the palette, so it reads
-as clearly apart from every room.
+Mapping logic: Balcony finally gets a true sunset colour, **Sunset
+Ochre** — a big improvement over the previous palette, which had nothing
+warmer than a dusty rose for it. Dining follows suit with the vivid
+**Sunset Clay**. Flinders (a swimming/surf beach) keeps the clear
+shallow-water **Tide Pool**; Frenchmans (bush-backed, hill view) moves to
+the grassy **Dune Grass** now that its previous colour (Coastal Green) no
+longer exists in the palette; Cylinder (its sand and sunrise headland)
+gets the golden **Sunlit Glow**. Main — not beach-named — keeps **Deep
+Cornflour Blue**, the only genuinely dark colour left in this revision of
+the palette, fitting the primary suite. Wi-Fi takes **Outback Earth**,
+the deepest/earthiest of the warm tones, so it still reads apart from
+every pastel room even though there's no longer a true dark "utility"
+colour to fall back on.
 
-**Most of the palette is pale.** Unlike a hand-picked "one deep jewel
-tone per room" approach, the actual Coastal Colour Palette leans light
-and muted — closer to painted weatherboard and sun-bleached textiles
-than saturated colour blocking. Only two rooms (Main, Wi-Fi) end up
-dark-card; light-card is now the norm, not the exception. `Coastal
-Green` (Frenchmans) and `Light Forest Green` (Living Room — Downstairs)
-sit a little under the 4.5:1 contrast rule below (4.17 and 3.76 against
-their better-contrasting ink) — still clearly legible at the room name's
-large display size, just not to the same margin as the rest of the set.
+**Almost the whole palette is pale now.** The previous revision was
+already light-leaning; this one is more so — Ocean Depth (the one very
+dark secondary colour) is gone, leaving Deep Cornflour Blue as the only
+dark-card colour in the entire set. `Light Forest Green` (Living Room —
+Downstairs) and `Sunset Ochre` (Balcony) sit a little under the 4.5:1
+contrast rule below (4.17 and 4.00 against their better-contrasting ink)
+— still clearly legible at the room name's large display size, just not
+to the same margin as the rest of the set.
 
 ### Adaptive ink and accent
 
@@ -190,8 +200,9 @@ name like "Downstairs Living Room" — split here into kicker
 
 1. Add an entry to `plaques/rooms.yml`: `slug`, `name`, optional
    `kicker`, `url`, `background`, `color`, `color_name`.
-2. Pick a colour — `Dune Grass` (`#A8B89A`) is the one unused colour left
-   in the official palette above. If it's already spoken for, either
+2. Pick a colour — `Sandy Taupe` (`#C8BCA6`) and `Soft Sand` (`#F0E5D2`)
+   are the unused colours left in the official palette above. If both are
+   already spoken for, either
    reuse a used colour (fine — it just won't be unique to that room) or
    extend the palette with a new named colour that clears the 4.5:1
    contrast rule below.
