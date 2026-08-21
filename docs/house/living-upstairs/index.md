@@ -34,4 +34,14 @@ _Pending ingestion._
 
 ## Photos
 
-_Pending ingestion._
+<div class="photo-grid" markdown>
+
+![Bookshelf, stocked with holiday reading](../../assets/images/house/living-upstairs/upstairs-lounge-bookshelf.jpg){srcset="../../assets/images/house/living-upstairs/thumbs/upstairs-lounge-bookshelf.jpg 480w, ../../assets/images/house/living-upstairs/upstairs-lounge-bookshelf.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
+
+![Sofa, with an ocean glimpse through the curtains](../../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-ocean-view.jpg){srcset="../../assets/images/house/living-upstairs/thumbs/upstairs-lounge-sofa-and-ocean-view.jpg 480w, ../../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-ocean-view.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
+
+![Sofa and TV](../../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-tv.jpg){srcset="../../assets/images/house/living-upstairs/thumbs/upstairs-lounge-sofa-and-tv.jpg 480w, ../../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-tv.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
+
+![Living area, with the Main bedroom beyond](../../assets/images/house/living-upstairs/upstairs-lounge-view-to-main-bedroom.jpg){srcset="../../assets/images/house/living-upstairs/thumbs/upstairs-lounge-view-to-main-bedroom.jpg 480w, ../../assets/images/house/living-upstairs/upstairs-lounge-view-to-main-bedroom.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
+
+</div>

@@ -244,3 +244,82 @@ html {
     height: 15%;
   }
 }
+
+/* Photo grids — room pages and the Photo Gallery.
+
+   Each photo is authored as a markdown image whose `src` is the full-size
+   version (~1600px) — that's what glightbox reads for the lightbox `href`
+   — with a `srcset`/`sizes` attribute pointing the grid tile at a small
+   thumbnail (~480px) instead. That split is the whole point: the grid on
+   the page stays light to load, and the full-size file is only fetched
+   if a guest actually opens the lightbox. glightbox wraps each `<img>`
+   in its own `<a class="glightbox">` at render time, so the selectors
+   below reach through that wrapper rather than styling the `<img>`
+   directly. */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+/* The material theme's root font-size is larger than 16px, so 9.5rem
+   eats the whole line on a phone-width screen and the grid collapses to
+   a single column. Use a smaller basis below ~600px so phones still get
+   at least two tiles per row. */
+@media (max-width: 37.5em) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
+  }
+}
+
+/* Markdown wraps a standalone image in its own <p>; without this the
+   default paragraph spacing would put a gap under every tile. */
+.photo-grid p {
+  margin: 0;
+  line-height: 0;
+}
+
+.photo-grid a {
+  display: block;
+}
+
+.photo-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0.375rem;
+  cursor: zoom-in;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.photo-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+/* Respect the "no motion" preference the same way the hero bounce does
+   above — the zoom-on-hover is a nice-to-have, not load-bearing. */
+@media (prefers-reduced-motion: reduce) {
+  .photo-grid img {
+    transition: none;
+  }
+
+  .photo-grid img:hover {
+    transform: none;
+  }
+}
+
+/* glightbox's own lightbox chrome (close/nav buttons, captions) is
+   unthemed by default — this nudges it to sit on top of the site's
+   dark teal rather than plain black, and keeps the caption readable in
+   both palettes. */
+.glightbox-clean .gslide-description {
+  background: rgba(11, 61, 63, 0.92);
+}
+
+.glightbox-clean .gdesc-inner {
+  color: #fff;
+}

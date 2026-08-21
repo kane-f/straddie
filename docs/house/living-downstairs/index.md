@@ -46,4 +46,18 @@ _Pending ingestion._
 
 ## Photos
 
-_Pending ingestion._
+<div class="photo-grid" markdown>
+
+![Entry console, with the hallway to the bedrooms](../../assets/images/house/living-downstairs/downstairs-lounge-entry-and-hallway.jpg){srcset="../../assets/images/house/living-downstairs/thumbs/downstairs-lounge-entry-and-hallway.jpg 480w, ../../assets/images/house/living-downstairs/downstairs-lounge-entry-and-hallway.jpg 1600w" sizes="200px" data-gallery="living-downstairs"}
+
+![Entry console table and mirror](../../assets/images/house/living-downstairs/downstairs-lounge-entry-console.jpg){srcset="../../assets/images/house/living-downstairs/thumbs/downstairs-lounge-entry-console.jpg 480w, ../../assets/images/house/living-downstairs/downstairs-lounge-entry-console.jpg 1600w" sizes="200px" data-gallery="living-downstairs"}
+
+![Sofa and coffee table](../../assets/images/house/living-downstairs/downstairs-lounge-sofa-and-coffee-table.jpg){srcset="../../assets/images/house/living-downstairs/thumbs/downstairs-lounge-sofa-and-coffee-table.jpg 480w, ../../assets/images/house/living-downstairs/downstairs-lounge-sofa-and-coffee-table.jpg 1600w" sizes="200px" data-gallery="living-downstairs"}
+
+![Sofa corner](../../assets/images/house/living-downstairs/downstairs-lounge-sofa-corner.jpg){srcset="../../assets/images/house/living-downstairs/thumbs/downstairs-lounge-sofa-corner.jpg 480w, ../../assets/images/house/living-downstairs/downstairs-lounge-sofa-corner.jpg 1600w" sizes="200px" data-gallery="living-downstairs"}
+
+![TV and sofa](../../assets/images/house/living-downstairs/downstairs-lounge-tv-and-sofa.jpg){srcset="../../assets/images/house/living-downstairs/thumbs/downstairs-lounge-tv-and-sofa.jpg 480w, ../../assets/images/house/living-downstairs/downstairs-lounge-tv-and-sofa.jpg 1600w" sizes="200px" data-gallery="living-downstairs"}
+
+![TV, under the "Beach House" sign](../../assets/images/house/living-downstairs/downstairs-lounge-tv-with-beach-house-sign.jpg){srcset="../../assets/images/house/living-downstairs/thumbs/downstairs-lounge-tv-with-beach-house-sign.jpg 480w, ../../assets/images/house/living-downstairs/downstairs-lounge-tv-with-beach-house-sign.jpg 1600w" sizes="200px" data-gallery="living-downstairs"}
+
+</div>

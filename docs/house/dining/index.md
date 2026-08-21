@@ -37,4 +37,12 @@ miss if you don't open it.
 
 ## Photos
 
-_Pending ingestion._
+<div class="photo-grid" markdown>
+
+![Open-plan dining, kitchen, and lounge](../../assets/images/house/dining/dining-open-plan-kitchen-and-lounge.jpg){srcset="../../assets/images/house/dining/thumbs/dining-open-plan-kitchen-and-lounge.jpg 480w, ../../assets/images/house/dining/dining-open-plan-kitchen-and-lounge.jpg 1600w" sizes="200px" data-gallery="dining"}
+
+![Dining table with the living area beyond](../../assets/images/house/dining/dining-table-and-living-area.jpg){srcset="../../assets/images/house/dining/thumbs/dining-table-and-living-area.jpg 480w, ../../assets/images/house/dining/dining-table-and-living-area.jpg 1600w" sizes="200px" data-gallery="dining"}
+
+![Dining table, with the guitar and speaker cabinet](../../assets/images/house/dining/dining-table-with-guitar-and-cabinet.jpg){srcset="../../assets/images/house/dining/thumbs/dining-table-with-guitar-and-cabinet.jpg 480w, ../../assets/images/house/dining/dining-table-with-guitar-and-cabinet.jpg 1600w" sizes="200px" data-gallery="dining"}
+
+</div>
