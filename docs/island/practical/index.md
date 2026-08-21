@@ -3,8 +3,8 @@ title: Practical Info
 description: Getting to and around the island, 4WD tracks, mobile coverage, and other practical details.
 section: island
 tags: [practical, transport, ferry, 4wd]
-last_reviewed: 2026-08-19
-source: ingest/straddie-guide.md
+last_reviewed: 2026-08-21
+source: ingest/straddie-guide.md, wider search 2026-08-21 (websites/phone numbers, bus operator change)
 status: review
 ---
 
@@ -25,8 +25,8 @@ status: review
 
 | Option | Details |
 | --- | --- |
-| Vehicle ferry | Drive ~30km from Brisbane CBD to Toondah Harbour, Cleveland (~50 min via Old Cleveland Road). Book a vehicle ferry with SeaLink (~45 min crossing). Book ahead, especially in holidays. |
-| Passenger ferry | Straddie Flyer or SeaLink (~20 min) from Cleveland. Straddie Flyer runs a free shuttle from Cleveland Station for public transport users. |
+| Vehicle ferry | Drive ~30km from Brisbane CBD to Toondah Harbour, Cleveland (~50 min via Old Cleveland Road). Book a vehicle ferry with [SeaLink](https://www.sealink.com.au/north-stradbroke-island/) (~45 min crossing) — bookings (07) 3488 5300, general enquiries 1300 317 445. Book ahead, especially in holidays. |
+| Passenger ferry | [Straddie Flyer](https://www.flyer.com.au/) (07 3821 3821 — walk-up only, no advance booking needed) or SeaLink (~20 min) from Cleveland. Straddie Flyer runs a free shuttle from Cleveland Station for public transport users. |
 | Public transport | Cleveland line train (~1 hr) to Cleveland Station, then bus 258 to the ferry terminal (~15 min). A go card gets cheaper fares. |
 
 !!! tip "Worth knowing"
@@ -37,11 +37,11 @@ status: review
 
 | Option | Details |
 | --- | --- |
-| Car | Most flexible. Point Lookout is 22km from Dunwich (ferry arrival point). Sealed roads connect all townships; a 4WD is only needed for beach driving. Fuel at Point Lookout Roadhouse (unleaded/diesel). There's no EV charger on the island. |
-| Bus | Stradbroke Island Buses connect Dunwich, Amity Point, and Point Lookout (all-day hop-on-hop-off). Meets most ferries — check timetables for early/late services. Credit card or cash only, no go cards. Dogs are no longer allowed on the buses. |
-| Stradeasy Shuttle/Taxi | Private ferry-to-door transfers and group charters. Book by phone/text — 0408 193 685 for maxi-taxi. |
-| Cycling | Dunwich to Point Lookout is 22km on sealed roads (mind narrow shoulders and trucks). Bike rentals at Manta Lodge or Straddie Super Sports. |
-| Scooter | Scooters on Straddie offers rentals. |
+| Car | Most flexible. Point Lookout is 22km from Dunwich (ferry arrival point). Sealed roads connect all townships; a 4WD is only needed for beach driving. Fuel at Point Lookout Roadhouse, 126 Dickson Way (unleaded/diesel) — (07) 3415 3347, no website found. There's no EV charger on the island. |
+| Bus | As of a 2025 route overhaul, island buses run under **Translink** rather than the standalone "Stradbroke Island Buses" operator (its old website no longer resolves) — plan with the [Translink journey planner](https://translink.com.au/) or call 13 12 30. Connects Dunwich, Amity Point, and Point Lookout; meets most ferries — check timetables for early/late services. _This transition (and whether the old "credit card or cash only, no go card, no dogs" rules still apply under Translink) hasn't been personally confirmed — worth checking current signage/timetables on the island before relying on it._ |
+| Stradeasy Shuttle/Taxi | Private ferry-to-door transfers and group charters. [stradeasy.com.au](https://stradeasy.com.au/) — book by phone/text on **0488 029 718** (the number on their own site; an older 0408 193 685 was previously listed here — worth confirming which is current if either doesn't connect). |
+| Cycling | Dunwich to Point Lookout is 22km on sealed roads (mind narrow shoulders and trucks). Bike rentals at [Manta Lodge](../things-to-do/index.md#water-activities) or [Straddie Super Sports](../shopping/index.md). |
+| Scooter | [Scooters on Straddie](https://scootersonstraddie.com.au/) offers rentals — 0497 777 933, [book online](https://scootersonstraddie.com.au/scooters-booking). |
 
 !!! tip "Worth knowing"
     If you're relying on buses, plan around the afternoon schedule gaps —
@@ -64,7 +64,10 @@ tide charts.
 
 ## Support Local
 
-Buy native plants at Point Lookout Bushcare Nursery for a unique souvenir.
+Buy native plants at Point Lookout Bushcare Nursery for a unique
+souvenir. No phone number or working website found (their listed domain
+didn't resolve) — try their Facebook group if you want to check hours
+ahead.
 
 ## Respecting Quandamooka Culture
 
