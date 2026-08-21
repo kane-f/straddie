@@ -68,13 +68,13 @@ Each bedroom is named after a Point Lookout beach — see
 
 <div class="photo-grid" markdown>
 
-![Cylinder bedroom, with the window through to the balcony](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-balcony-window.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-balcony-window.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-balcony-window.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
+![Cylinder bedroom, with the window through to the balcony](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-balcony-window-editorial.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-balcony-window-editorial.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-balcony-window-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
 
-![Cylinder bedroom bed and built-in closet](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-closet.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
+![Cylinder bedroom bed and built-in closet](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet-editorial.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-closet-editorial.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
 
-![Cylinder bedroom, with a street-facing window](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-street-view.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-street-view.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-street-view.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
+![Cylinder bedroom, with a street-facing window](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-street-view-editorial.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-street-view-editorial.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-street-view-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
 
-![Entry hallway into the Cylinder bedroom](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-entry-hallway.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-entry-hallway.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-entry-hallway.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
+![Entry hallway into the Cylinder bedroom](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-entry-hallway-editorial.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-entry-hallway-editorial.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-entry-hallway-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
 
 </div>
 
@@ -82,13 +82,13 @@ Each bedroom is named after a Point Lookout beach — see
 
 <div class="photo-grid" markdown>
 
-![Flinders bedroom closet and chair](../assets/images/house/bedrooms/flinders/flinders-bedroom-closet-and-chair.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-closet-and-chair.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-closet-and-chair.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
+![Flinders bedroom closet and chair](../assets/images/house/bedrooms/flinders/flinders-bedroom-closet-and-chair-editorial.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-closet-and-chair-editorial.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-closet-and-chair-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
-![Flinders bedroom, surf-themed prints above the bed](../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-single-bed-and-surf-art.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
+![Flinders bedroom, surf-themed prints above the bed](../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art-editorial.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-single-bed-and-surf-art-editorial.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
-![Flinders bedroom, twin bed by the window](../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-bed-and-window.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
+![Flinders bedroom, twin bed by the window](../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window-editorial.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-bed-and-window-editorial.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
-![Flinders bedroom's two single beds](../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-beds-and-nightstand.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
+![Flinders bedroom's two single beds](../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand-editorial.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-beds-and-nightstand-editorial.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
 </div>
 
@@ -96,17 +96,17 @@ Each bedroom is named after a Point Lookout beach — see
 
 <div class="photo-grid" markdown>
 
-![Frenchmans bedroom artwork and chair](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-artwork-and-chair.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-artwork-and-chair.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-artwork-and-chair.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+![Frenchmans bedroom artwork and chair](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-artwork-and-chair-editorial.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-artwork-and-chair-editorial.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-artwork-and-chair-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
 
-![Frenchmans bedroom bed, with artwork above](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-artwork.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-artwork.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-artwork.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+![Frenchmans bedroom bed, with artwork above](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-artwork-editorial.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-artwork-editorial.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-artwork-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
 
-![Frenchmans bedroom, with a view over the hill](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-hill-view.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+![Frenchmans bedroom, with a view over the hill](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view-editorial.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-hill-view-editorial.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
 
-![Frenchmans bedroom bed and built-in wardrobe](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-wardrobe.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+![Frenchmans bedroom bed and built-in wardrobe](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe-editorial.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-wardrobe-editorial.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
 
-![Frenchmans bedroom, with windows over the street](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-windows.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-windows.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-windows.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+![Frenchmans bedroom, with windows over the street](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-windows-editorial.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-windows-editorial.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-windows-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
 
-![Frenchmans bedroom chair by the window](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-chair-and-street-view.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-chair-and-street-view.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-chair-and-street-view.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
+![Frenchmans bedroom chair by the window](../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-chair-and-street-view-editorial.jpg){srcset="../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-chair-and-street-view-editorial.jpg 480w, ../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-chair-and-street-view-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
 
 </div>
 
@@ -114,19 +114,19 @@ Each bedroom is named after a Point Lookout beach — see
 
 <div class="photo-grid" markdown>
 
-![Main bedroom, with the ensuite doorway](../assets/images/house/bedrooms/main/main-bedroom-aircon-and-ensuite-doorway.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-aircon-and-ensuite-doorway.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-aircon-and-ensuite-doorway.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main bedroom, with the ensuite doorway](../assets/images/house/bedrooms/main/main-bedroom-aircon-and-ensuite-doorway-editorial.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-aircon-and-ensuite-doorway-editorial.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-aircon-and-ensuite-doorway-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main bedroom, with the hallway to the walk-in robe and ensuite](../assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-bed-and-hallway.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main bedroom, with the hallway to the walk-in robe and ensuite](../assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway-editorial.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-bed-and-hallway-editorial.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main ensuite — shower and double vanity](../assets/images/house/bedrooms/main/main-bedroom-ensuite-shower-and-vanity.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-ensuite-shower-and-vanity.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-ensuite-shower-and-vanity.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main ensuite — shower and double vanity](../assets/images/house/bedrooms/main/main-bedroom-ensuite-shower-and-vanity-editorial.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-ensuite-shower-and-vanity-editorial.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-ensuite-shower-and-vanity-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main ensuite — toilet and vanity](../assets/images/house/bedrooms/main/main-bedroom-ensuite-toilet.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-ensuite-toilet.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-ensuite-toilet.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main ensuite — toilet and vanity](../assets/images/house/bedrooms/main/main-bedroom-ensuite-toilet-editorial.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-ensuite-toilet-editorial.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-ensuite-toilet-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Entry hallway into the Main bedroom](../assets/images/house/bedrooms/main/main-bedroom-entry-hallway.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-entry-hallway.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-entry-hallway.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Entry hallway into the Main bedroom](../assets/images/house/bedrooms/main/main-bedroom-entry-hallway-editorial.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-entry-hallway-editorial.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-entry-hallway-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main bedroom, with the TV](../assets/images/house/bedrooms/main/main-bedroom-tv-and-bed.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-tv-and-bed.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-tv-and-bed.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main bedroom, with the TV](../assets/images/house/bedrooms/main/main-bedroom-tv-and-bed-editorial.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-tv-and-bed-editorial.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-tv-and-bed-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main bedroom's walk-in robe](../assets/images/house/bedrooms/main/main-bedroom-walk-in-robe.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-walk-in-robe.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-walk-in-robe.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main bedroom's walk-in robe](../assets/images/house/bedrooms/main/main-bedroom-walk-in-robe-editorial.jpg){srcset="../assets/images/house/bedrooms/main/thumbs/main-bedroom-walk-in-robe-editorial.jpg 480w, ../assets/images/house/bedrooms/main/main-bedroom-walk-in-robe-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
 </div>
 
