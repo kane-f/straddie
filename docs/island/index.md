@@ -14,6 +14,8 @@ status: review
 
 -   **[Beaches & Swimming](beaches-and-swimming/index.md)**
 -   **[Food & Drink](food-and-drink/index.md)**
+-   **[Watering Holes](watering-holes/index.md)**
+-   **[Shopping & Essentials](shopping/index.md)**
 -   **[Things To Do](things-to-do/index.md)**
 -   **[Practical Info](practical/index.md)**
 

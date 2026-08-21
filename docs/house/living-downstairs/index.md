@@ -24,13 +24,20 @@ The downstairs lounge is set up with an Xbox for guests to use.
 The house has smart TVs, SONOS sound, and smart lighting throughout —
 see [Technology & Wi-Fi](../../technology/index.md) for how to use them.
 
-**Xbox** — set up in this room, free for guests to use.
+**Xbox** — a white Xbox, set up in this room, free for guests to use.
+It looks to be about 10 years old and is believed to be an Xbox
+One-generation console rather than the current generation.
+
+**Nintendo Switch** — there's also a dock for a first-generation
+Nintendo Switch in this room.
 
 !!! question "Needs confirmation"
-    The exact Xbox model (e.g. Series S vs. Series X) and which games it
-    supports haven't been confirmed yet — add them here once confirmed,
-    since guests deciding whether to bring their own games will want to
-    know. Controller and sign-in instructions are also still pending.
+    The exact Xbox model and which games it supports haven't been
+    confirmed yet, and neither has exactly what's provided with the
+    Switch dock (console, joy-cons, games) — add them here once
+    confirmed, since guests deciding whether to bring their own games
+    will want to know. Controller and sign-in instructions are also
+    still pending for both.
 
 ## Tips & Tricks
 

@@ -22,6 +22,21 @@ the [Island Guide](../../../island/beaches-and-swimming/index.md#frenchmans-beac
     street with a glimpse of the hill behind — worth confirming the
     exact bed size and whether there's an ensuite.
 
+## Technology
+
+- **Air conditioning:** yes, with a Sensibo controller — see
+  [Technology & Wi-Fi](../../../technology/index.md#air-conditioning-sensibo).
+
+## Voice Commands
+
+**Climate**
+
+> "Hey Alexa, turn on the Frenchmans bedroom AC"
+
+> "Hey Alexa, set the Frenchmans bedroom AC to 22 degrees"
+
+> "Hey Alexa, turn off the Frenchmans bedroom AC"
+
 ## Things Guests Often Miss
 
 _Pending ingestion._

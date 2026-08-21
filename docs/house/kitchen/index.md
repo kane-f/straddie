@@ -22,11 +22,20 @@ The kitchen comes with some basic supplies ready for you to use.
 
 ## How To Use Things
 
-!!! info "PLACEHOLDER — content pending ingestion"
-    Specific appliance instructions (oven, dishwasher, coffee machine, fridge,
-    etc.) haven't been documented yet — none were confirmed in the source
-    guide. Once confirmed, each gets its own page under
-    [Appliances](../../appliances/index.md) and is linked from here.
+Full instructions for each appliance live on their own page under
+[Appliances](../../appliances/index.md):
+
+- [Fridge](../../appliances/fridge.md) — including the hidden Beverage
+  Centre (filtered water + ice maker)
+- [Oven](../../appliances/oven.md) — NEFF, pyrolytic self-clean
+- [Cooktop](../../appliances/cooktop.md) — NEFF five-burner gas
+- [Microwave](../../appliances/microwave.md) — Panasonic
+- [Dishwasher](../../appliances/dishwasher.md) — IKEA, projects its
+  status onto the floor
+- [Coffee Machine](../../appliances/coffee-machine.md) — Breville, takes
+  Nescafé-compatible pods
+
+Also in the kitchen: a four-slice toaster, a kettle, and a sandwich press.
 
 ## Tips & Tricks
 
@@ -43,7 +52,8 @@ _Pending ingestion._
 
 ## Manuals
 
-_Pending ingestion._
+See each appliance's own page under [Appliances](../../appliances/index.md) —
+model numbers and manuals are being tracked down and will be added there.
 
 ## Before You Leave
 
@@ -61,7 +71,7 @@ _Pending ingestion._
 
 ![Mugs and glasses drawer](../../assets/images/house/kitchen/kitchen-mugs-and-glasses-drawer.jpg){srcset="../../assets/images/house/kitchen/thumbs/kitchen-mugs-and-glasses-drawer.jpg 480w, ../../assets/images/house/kitchen/kitchen-mugs-and-glasses-drawer.jpg 1600w" sizes="200px" data-gallery="kitchen"}
 
-![The Nespresso machine](../../assets/images/house/kitchen/kitchen-nespresso-machine.jpg){srcset="../../assets/images/house/kitchen/thumbs/kitchen-nespresso-machine.jpg 480w, ../../assets/images/house/kitchen/kitchen-nespresso-machine.jpg 1600w" sizes="200px" data-gallery="kitchen"}
+![The Breville pod coffee machine](../../assets/images/house/kitchen/kitchen-nespresso-machine.jpg){srcset="../../assets/images/house/kitchen/thumbs/kitchen-nespresso-machine.jpg 480w, ../../assets/images/house/kitchen/kitchen-nespresso-machine.jpg 1600w" sizes="200px" data-gallery="kitchen"}
 
 ![Kitchen, fridge, and cooktop](../../assets/images/house/kitchen/kitchen-overview.jpg){srcset="../../assets/images/house/kitchen/thumbs/kitchen-overview.jpg 480w, ../../assets/images/house/kitchen/kitchen-overview.jpg 1600w" sizes="200px" data-gallery="kitchen"}
 

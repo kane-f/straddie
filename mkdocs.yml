@@ -128,12 +128,23 @@ nav:
   - Appliances & Tech:
       - Appliances:
           - Overview: appliances/index.md
+          - Fridge: appliances/fridge.md
+          - Oven: appliances/oven.md
+          - Cooktop: appliances/cooktop.md
+          - Microwave: appliances/microwave.md
+          - Dishwasher: appliances/dishwasher.md
+          - Coffee Machine: appliances/coffee-machine.md
+          - Washing Machine: appliances/washing-machine.md
+          - Dryer: appliances/dryer.md
           - BBQ: appliances/bbq.md
+          - Solar & Energy: appliances/solar.md
       - Technology & Wi-Fi: technology/index.md
   - Island Guide:
       - Overview: island/index.md
       - Beaches & Swimming: island/beaches-and-swimming/index.md
       - Food & Drink: island/food-and-drink/index.md
+      - Watering Holes: island/watering-holes/index.md
+      - Shopping & Essentials: island/shopping/index.md
       - Things To Do: island/things-to-do/index.md
       - Practical Info: island/practical/index.md
   - Before You Leave: before-you-leave/checkout.md

@@ -47,9 +47,12 @@ two without needing a shop run:
 
 - Basic kitchen supplies
 - Basic bathroom supplies
+- Hair dryers
 - Board games and cards (dining area sideboard)
 - Books throughout the house (please leave them for other guests)
-- Xbox (downstairs living room)
+- Xbox and a Nintendo Switch dock (downstairs living room)
+- A baby cot and high chair (stored in one of the downstairs bedrooms) —
+  see [Bedrooms](../house/bedrooms/index.md)
 
 ## Things to Bring / Don't Need to Bring
 
@@ -76,6 +79,15 @@ started:
 - Please don't sit on the sofas in wet swimwear or wet clothes — it can leave stains
 - Please wash any dishes prior to checkout
 - Any damages are paid for out of the security deposit
+- There's a tap on the front balcony for washing sand off your feet —
+  using it before heading inside helps keep sand out of the house
+- If you use the baby cot or high chair, please give them a clean and
+  pack them away again afterwards
+
+!!! tip "Help us keep the plants happy"
+    There are live plants throughout the house — feel free to top up
+    their water reservoirs if you notice one's low. They're hardy and
+    hard to overwater, so there's no need to worry about doing it wrong.
 
 **Parking:** the double carport downstairs is used by another unit —
 please don't park there. Parking is available in the garage under the

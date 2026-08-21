@@ -21,6 +21,12 @@ than the others. See the full entry in the
     Twin share — two single beds, surf-themed prints on the wall, and a
     window over the street. Worth confirming whether there's an ensuite.
 
+## Technology
+
+!!! warning "No air conditioning in this room"
+    Unlike the other three bedrooms, Flinders doesn't have AC — worth
+    knowing when picking a room, especially over summer.
+
 ## Things Guests Often Miss
 
 _Pending ingestion._

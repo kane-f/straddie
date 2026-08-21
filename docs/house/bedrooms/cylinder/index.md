@@ -22,6 +22,21 @@ full entry in the
     closet — worth confirming the exact bed size and whether there's an
     ensuite.
 
+## Technology
+
+- **Air conditioning:** yes, with a Sensibo controller — see
+  [Technology & Wi-Fi](../../../technology/index.md#air-conditioning-sensibo).
+
+## Voice Commands
+
+**Climate**
+
+> "Hey Alexa, turn on the Cylinder bedroom AC"
+
+> "Hey Alexa, set the Cylinder bedroom AC to 22 degrees"
+
+> "Hey Alexa, turn off the Cylinder bedroom AC"
+
 ## Things Guests Often Miss
 
 _Pending ingestion._
