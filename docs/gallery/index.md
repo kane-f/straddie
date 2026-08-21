@@ -210,23 +210,23 @@ Each bedroom is named after a Point Lookout beach — see
 
 <div class="photo-grid" markdown>
 
-![A quiet cove, framed by pandanus](../assets/images/gallery/beaches/beach-cove-through-pandanus-with-steps.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-cove-through-pandanus-with-steps.jpg 480w, ../assets/images/gallery/beaches/beach-cove-through-pandanus-with-steps.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![A quiet cove, framed by pandanus](../assets/images/gallery/beaches/beach-cove-through-pandanus-with-steps-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-cove-through-pandanus-with-steps-editorial.jpg 480w, ../assets/images/gallery/beaches/beach-cove-through-pandanus-with-steps-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
-![Cylinder Beach on a sunny day](../assets/images/gallery/beaches/beach-cylinder-beach-sunny-day.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-cylinder-beach-sunny-day.jpg 480w, ../assets/images/gallery/beaches/beach-cylinder-beach-sunny-day.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![Cylinder Beach on a sunny day](../assets/images/gallery/beaches/beach-cylinder-beach-sunny-day-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-cylinder-beach-sunny-day-editorial.jpg 480w, ../assets/images/gallery/beaches/beach-cylinder-beach-sunny-day-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
-![An evening walk on the beach](../assets/images/gallery/beaches/beach-evening-walk-with-dog.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-evening-walk-with-dog.jpg 480w, ../assets/images/gallery/beaches/beach-evening-walk-with-dog.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![An evening walk on the beach](../assets/images/gallery/beaches/beach-evening-walk-with-dog-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-evening-walk-with-dog-editorial.jpg 480w, ../assets/images/gallery/beaches/beach-evening-walk-with-dog-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
-![Sunset over the Gorge](../assets/images/gallery/beaches/beach-gorge-sunset.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-gorge-sunset.jpg 480w, ../assets/images/gallery/beaches/beach-gorge-sunset.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![Sunset over the Gorge](../assets/images/gallery/beaches/beach-gorge-sunset-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-gorge-sunset-editorial.jpg 480w, ../assets/images/gallery/beaches/beach-gorge-sunset-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
-![The Gorge, with waves crashing into the rocks](../assets/images/gallery/beaches/beach-gorge-waves-crashing-rocks.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-gorge-waves-crashing-rocks.jpg 480w, ../assets/images/gallery/beaches/beach-gorge-waves-crashing-rocks.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![The Gorge, with waves crashing into the rocks](../assets/images/gallery/beaches/beach-gorge-waves-crashing-rocks-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-gorge-waves-crashing-rocks-editorial.jpg 480w, ../assets/images/gallery/beaches/beach-gorge-waves-crashing-rocks-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
-![Sunrise on the beach](../assets/images/gallery/beaches/beach-sunrise.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-sunrise.jpg 480w, ../assets/images/gallery/beaches/beach-sunrise.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![Sunrise on the beach](../assets/images/gallery/beaches/beach-sunrise-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-sunrise-editorial.jpg 480w, ../assets/images/gallery/beaches/beach-sunrise-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
-![A patrolled beach on a busy day](../assets/images/gallery/beaches/beach-umbrellas-and-swimmers.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-umbrellas-and-swimmers.jpg 480w, ../assets/images/gallery/beaches/beach-umbrellas-and-swimmers.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![A patrolled beach on a busy day](../assets/images/gallery/beaches/beach-umbrellas-and-swimmers-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-umbrellas-and-swimmers-editorial.jpg 480w, ../assets/images/gallery/beaches/beach-umbrellas-and-swimmers-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
-![Swimmers at the beach, framed by pandanus](../assets/images/gallery/beaches/beach-with-swimmers-and-pandanus.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-with-swimmers-and-pandanus.jpg 480w, ../assets/images/gallery/beaches/beach-with-swimmers-and-pandanus.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![Swimmers at the beach, framed by pandanus](../assets/images/gallery/beaches/beach-with-swimmers-and-pandanus-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/beach-with-swimmers-and-pandanus-editorial.jpg 480w, ../assets/images/gallery/beaches/beach-with-swimmers-and-pandanus-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
-![Headland view over the beach and surf club](../assets/images/gallery/beaches/headland-view-over-beach-and-clubhouse.jpg){srcset="../assets/images/gallery/beaches/thumbs/headland-view-over-beach-and-clubhouse.jpg 480w, ../assets/images/gallery/beaches/headland-view-over-beach-and-clubhouse.jpg 1600w" sizes="200px" data-gallery="beaches"}
+![Headland view over the beach and surf club](../assets/images/gallery/beaches/headland-view-over-beach-and-clubhouse-editorial.jpg){srcset="../assets/images/gallery/beaches/thumbs/headland-view-over-beach-and-clubhouse-editorial.jpg 480w, ../assets/images/gallery/beaches/headland-view-over-beach-and-clubhouse-editorial.jpg 1600w" sizes="200px" data-gallery="beaches"}
 
 </div>
 
