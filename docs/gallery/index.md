@@ -72,8 +72,6 @@ Each bedroom is named after a Point Lookout beach — see
 
 ![Cylinder bedroom bed and built-in closet](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-closet.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
 
-![Cylinder bedroom, with a street-facing window](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-street-view.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-street-view.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-street-view.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
-
 ![Entry hallway into the Cylinder bedroom](../assets/images/house/bedrooms/cylinder/cylinder-bedroom-entry-hallway.jpg){srcset="../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-entry-hallway.jpg 480w, ../assets/images/house/bedrooms/cylinder/cylinder-bedroom-entry-hallway.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
 
 </div>
@@ -87,8 +85,6 @@ Each bedroom is named after a Point Lookout beach — see
 ![Flinders bedroom, surf-themed prints above the bed](../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-single-bed-and-surf-art.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-single-bed-and-surf-art.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
 ![Flinders bedroom, twin bed by the window](../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-bed-and-window.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
-
-![Flinders bedroom's two single beds](../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand.jpg){srcset="../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-beds-and-nightstand.jpg 480w, ../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
 </div>
 
@@ -135,8 +131,6 @@ Each bedroom is named after a Point Lookout beach — see
 ![Sofa, with an ocean glimpse through the curtains](../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-ocean-view.jpg){srcset="../assets/images/house/living-upstairs/thumbs/upstairs-lounge-sofa-and-ocean-view.jpg 480w, ../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-ocean-view.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
 
 ![Sofa and TV](../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-tv.jpg){srcset="../assets/images/house/living-upstairs/thumbs/upstairs-lounge-sofa-and-tv.jpg 480w, ../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-tv.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
-
-![Living area, with the Main bedroom beyond](../assets/images/house/living-upstairs/upstairs-lounge-view-to-main-bedroom.jpg){srcset="../assets/images/house/living-upstairs/thumbs/upstairs-lounge-view-to-main-bedroom.jpg 480w, ../assets/images/house/living-upstairs/upstairs-lounge-view-to-main-bedroom.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
 
 </div>
 

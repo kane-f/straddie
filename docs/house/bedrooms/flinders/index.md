@@ -41,6 +41,4 @@ _Pending ingestion._
 
 ![Flinders bedroom, twin bed by the window](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-bed-and-window.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-bed-and-window.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
 
-![Flinders bedroom's two single beds](../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand.jpg){srcset="../../../assets/images/house/bedrooms/flinders/thumbs/flinders-bedroom-twin-beds-and-nightstand.jpg 480w, ../../../assets/images/house/bedrooms/flinders/flinders-bedroom-twin-beds-and-nightstand.jpg 1600w" sizes="200px" data-gallery="bedroom-flinders"}
-
 </div>

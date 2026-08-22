@@ -55,6 +55,4 @@ _Pending ingestion._
 
 ![Sofa and TV](../../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-tv.jpg){srcset="../../assets/images/house/living-upstairs/thumbs/upstairs-lounge-sofa-and-tv.jpg 480w, ../../assets/images/house/living-upstairs/upstairs-lounge-sofa-and-tv.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
 
-![Living area, with the Main bedroom beyond](../../assets/images/house/living-upstairs/upstairs-lounge-view-to-main-bedroom.jpg){srcset="../../assets/images/house/living-upstairs/thumbs/upstairs-lounge-view-to-main-bedroom.jpg 480w, ../../assets/images/house/living-upstairs/upstairs-lounge-view-to-main-bedroom.jpg 1600w" sizes="200px" data-gallery="living-upstairs"}
-
 </div>
