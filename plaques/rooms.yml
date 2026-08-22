@@ -50,7 +50,7 @@ rooms:
     name: Living Room
     kicker: Downstairs
     url: house/living-downstairs/
-    background: docs/assets/images/house/living-downstairs/downstairs-lounge-sofa-and-coffee-table.jpg
+    background: docs/assets/images/house/living-downstairs/downstairs-lounge-tv-and-sofa.jpg
     color: "#7FA17F"
     color_name: Light Forest Green
 
@@ -64,14 +64,14 @@ rooms:
   - slug: bathroom
     name: Bathroom
     url: house/bathroom/
-    background: docs/assets/images/house/bathroom/bathroom-bathtub-under-window.jpg
+    background: docs/assets/images/house/bathroom/bathroom-vanity-and-bathtub.jpg
     color: "#D6E7E0"
     color_name: Sea Foam
 
   - slug: laundry
     name: Laundry
     url: house/laundry/
-    background: docs/assets/images/house/laundry/laundry-room-and-yard-door.jpg
+    background: docs/assets/images/house/laundry/laundry-washer-dryer-and-sink.jpg
     color: "#DCC8AD"
     color_name: Driftwood
 
@@ -95,7 +95,7 @@ rooms:
     name: Frenchmans
     kicker: Bedroom
     url: house/bedrooms/frenchmans/
-    background: docs/assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg
+    background: docs/assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe.jpg
     color: "#D9E2CC"
     color_name: Dune Grass
 
@@ -103,6 +103,6 @@ rooms:
     name: Cylinder
     kicker: Bedroom
     url: house/bedrooms/cylinder/
-    background: docs/assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-balcony-window.jpg
+    background: docs/assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet.jpg
     color: "#FFD79A"
     color_name: Sunlit Glow

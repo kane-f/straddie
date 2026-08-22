@@ -47,10 +47,6 @@ _Pending ingestion._
 
 ![Frenchmans bedroom artwork and chair](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-artwork-and-chair.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-artwork-and-chair.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-artwork-and-chair.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
 
-![Frenchmans bedroom bed, with artwork above](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-artwork.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-artwork.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-artwork.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
-
-![Frenchmans bedroom, with a view over the hill](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-hill-view.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
-
 ![Frenchmans bedroom bed and built-in wardrobe](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-wardrobe.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
 
 ![Frenchmans bedroom, with windows over the street](../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-windows.jpg){srcset="../../../assets/images/house/bedrooms/frenchmans/thumbs/frenchmans-bedroom-bed-and-windows.jpg 480w, ../../../assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-windows.jpg 1600w" sizes="200px" data-gallery="bedroom-frenchmans"}
