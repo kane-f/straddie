@@ -95,7 +95,7 @@ rooms:
     name: Frenchmans
     kicker: Bedroom
     url: house/bedrooms/frenchmans/
-    background: docs/assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-hill-view.jpg
+    background: docs/assets/images/house/bedrooms/frenchmans/frenchmans-bedroom-bed-and-wardrobe.jpg
     color: "#D9E2CC"
     color_name: Dune Grass
 
