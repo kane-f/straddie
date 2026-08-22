@@ -36,8 +36,8 @@ legibility fight between photo and text), then the room name in Didot
 serif and a white QR card below it. Nothing ever crosses the frame line.
 
 Each room has its own background colour, drawn from the house's official
-Coastal Colour Palette (Sea Glass for the Kitchen, Sandy Taupe for
-Dining, Soft Sand for the Cylinder bedroom, and so on) — full palette,
+Coastal Colour Palette (Sea Glass for the Kitchen, Sunset Clay for
+Dining, Sunlit Glow for the Cylinder bedroom, and so on) — full palette,
 source, and the contrast rules behind it are in
 **[plaques/DESIGN-SYSTEM.md](DESIGN-SYSTEM.md)**. Run
 `python3 plaques/swatches.py` to render a review sheet of the whole
@@ -61,7 +61,7 @@ Edit `plaques/rooms.yml`. Each entry is:
   url: house/kitchen/           # path relative to site_url in mkdocs.yml —
                                  # the QR links to site_url + this path
   background: docs/assets/images/house/kitchen/kitchen-island-and-cooktop.jpg
-  color: "#6DB7B5"              # background colour — see DESIGN-SYSTEM.md
+  color: "#B3D6CE"              # background colour — see DESIGN-SYSTEM.md
   color_name: Sea Glass
 ```
 

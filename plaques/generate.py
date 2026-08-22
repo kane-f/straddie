@@ -36,10 +36,10 @@ WHITE = (255, 255, 255)
 AMBER_DEEP = (121, 71, 21)   # accent on pale (sand/foam) cards — AMBER is too washed out there
 
 # The Wi-Fi plaque isn't a room, so it gets its own colour rather than one
-# from rooms.yml — the darkest tone in the official Coastal Colour
-# Palette, see plaques/DESIGN-SYSTEM.md.
-WIFI_COLOR = (31, 61, 77)     # Ocean Depth — #1F3D4D
-WIFI_COLOR_NAME = "Ocean Depth"
+# from rooms.yml — the deepest, earthiest tone in the official Coastal
+# Colour Palette, see plaques/DESIGN-SYSTEM.md.
+WIFI_COLOR = (239, 184, 139)     # Outback Earth — #EFB88B
+WIFI_COLOR_NAME = "Outback Earth"
 
 HOUSE_NAME = "THE LOOKOUT BEACH HOUSE"
 
