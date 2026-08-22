@@ -45,18 +45,18 @@ _Pending ingestion._
 
 <div class="photo-grid" markdown>
 
-![Main bedroom, with the ensuite doorway](../../../assets/images/house/bedrooms/main/main-bedroom-aircon-and-ensuite-doorway-editorial.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-aircon-and-ensuite-doorway-editorial.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-aircon-and-ensuite-doorway-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main bedroom, with the ensuite doorway](../../../assets/images/house/bedrooms/main/main-bedroom-aircon-and-ensuite-doorway.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-aircon-and-ensuite-doorway.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-aircon-and-ensuite-doorway.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main bedroom, with the hallway to the walk-in robe and ensuite](../../../assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway-editorial.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-bed-and-hallway-editorial.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main bedroom, with the hallway to the walk-in robe and ensuite](../../../assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-bed-and-hallway.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-bed-and-hallway.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main ensuite — shower and double vanity](../../../assets/images/house/bedrooms/main/main-bedroom-ensuite-shower-and-vanity-editorial.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-ensuite-shower-and-vanity-editorial.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-ensuite-shower-and-vanity-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main ensuite — shower and double vanity](../../../assets/images/house/bedrooms/main/main-bedroom-ensuite-shower-and-vanity.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-ensuite-shower-and-vanity.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-ensuite-shower-and-vanity.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main ensuite — toilet and vanity](../../../assets/images/house/bedrooms/main/main-bedroom-ensuite-toilet-editorial.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-ensuite-toilet-editorial.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-ensuite-toilet-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main ensuite — toilet and vanity](../../../assets/images/house/bedrooms/main/main-bedroom-ensuite-toilet.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-ensuite-toilet.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-ensuite-toilet.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Entry hallway into the Main bedroom](../../../assets/images/house/bedrooms/main/main-bedroom-entry-hallway-editorial.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-entry-hallway-editorial.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-entry-hallway-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Entry hallway into the Main bedroom](../../../assets/images/house/bedrooms/main/main-bedroom-entry-hallway.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-entry-hallway.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-entry-hallway.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main bedroom, with the TV](../../../assets/images/house/bedrooms/main/main-bedroom-tv-and-bed-editorial.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-tv-and-bed-editorial.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-tv-and-bed-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main bedroom, with the TV](../../../assets/images/house/bedrooms/main/main-bedroom-tv-and-bed.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-tv-and-bed.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-tv-and-bed.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
-![Main bedroom's walk-in robe](../../../assets/images/house/bedrooms/main/main-bedroom-walk-in-robe-editorial.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-walk-in-robe-editorial.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-walk-in-robe-editorial.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
+![Main bedroom's walk-in robe](../../../assets/images/house/bedrooms/main/main-bedroom-walk-in-robe.jpg){srcset="../../../assets/images/house/bedrooms/main/thumbs/main-bedroom-walk-in-robe.jpg 480w, ../../../assets/images/house/bedrooms/main/main-bedroom-walk-in-robe.jpg 1600w" sizes="200px" data-gallery="bedroom-main"}
 
 </div>
