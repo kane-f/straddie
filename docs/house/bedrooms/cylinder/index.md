@@ -49,8 +49,6 @@ _Pending ingestion._
 
 ![Cylinder bedroom bed and built-in closet](../../../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet.jpg){srcset="../../../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-closet.jpg 480w, ../../../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-closet.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
 
-![Cylinder bedroom, with a street-facing window](../../../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-street-view.jpg){srcset="../../../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-bed-and-street-view.jpg 480w, ../../../assets/images/house/bedrooms/cylinder/cylinder-bedroom-bed-and-street-view.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
-
 ![Entry hallway into the Cylinder bedroom](../../../assets/images/house/bedrooms/cylinder/cylinder-bedroom-entry-hallway.jpg){srcset="../../../assets/images/house/bedrooms/cylinder/thumbs/cylinder-bedroom-entry-hallway.jpg 480w, ../../../assets/images/house/bedrooms/cylinder/cylinder-bedroom-entry-hallway.jpg 1600w" sizes="200px" data-gallery="bedroom-cylinder"}
 
 </div>
